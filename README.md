@@ -1,4 +1,4 @@
-# TÍTULO DO PROJETO
+# "PreviAqua" - Sistema de Previsão Meteorológica e Alerta de Inundações
 
 `CURSO: Sistemas de Informação`
 
@@ -6,20 +6,21 @@
 
 `SEMESTRE: 6º`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O "PreviAqua" é um sistema de previsão meteorológica e alerta de inundações que utiliza dados climáticos atualizados, modelos de previsão avançados e tecnologias de monitoramento hidrológico para fornecer alertas antecipados e orientações eficazes. O objetivo do projeto é minimizar os danos causados por inundações, permitindo respostas mais rápidas e coordenadas em comunidades propensas a esse tipo de desastre.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Amanda Lima Carvalho Dal Col 
+* Bernardo Campos Rodrigues 
+* Douglas Fernandes de Carvalho Jardim
+* Eduardo Henrique Costa Lara
+* Pedro Henrique Monti
+* Thomas Henrique Lousada 
+* Victor Mesquita Garcia Feltrim
 
 ## Orientador
 
-* Nome completo do professor 1
+* Kleber Jacques Ferreira de Souza
 
 # Planejamento
 
