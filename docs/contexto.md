@@ -182,13 +182,43 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+**ETAPA 1: Documentação de Contexto**
+- Realizar uma análise detalhada dos requisitos do projeto.
+- Definir o escopo do sistema, identificando funcionalidades e recursos principais.
+- Elaborar casos de uso detalhados para as diferentes partes do sistema.
+- Documentar os requisitos funcionais e não funcionais do sistema.
+- Criar um documento de especificações de projeto, descrevendo a visão geral e a finalidade do sistema.
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
-
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
-
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+**ETAPA 2: Planejar, Desenvolver e Gerenciar APIs e Web Services**
+- Identificar as APIs e serviços web necessários para o sistema.
+- Projetar a arquitetura da API, definindo endpoints, métodos e estrutura dos dados.
+- Desenvolver as APIs e serviços web de acordo com o projeto.
+- Implementar autenticação e segurança nas APIs, se necessário.
+- Realizar testes de unidade e integração nas APIs e serviços web.
+- Documentar a API, incluindo informações sobre como consumi-la.
+  
+**ETAPA 3: Planejar, Desenvolver e Gerenciar uma Aplicação Web**
+- Projetar a arquitetura da aplicação web, incluindo a estrutura de páginas e fluxos de navegação.
+- Desenvolver as diferentes páginas e componentes da aplicação web.
+- Implementar recursos interativos, como formulários e elementos de interface.
+- Integrar as APIs e serviços web desenvolvidos anteriormente na aplicação.
+- Testar a aplicação web em diferentes navegadores e dispositivos.
+- Realizar testes de desempenho e otimizar a velocidade da aplicação, se necessário.
+  
+**ETAPA 4: Planejar, Desenvolver e Gerenciar uma Aplicação Móvel**
+- Definir a plataforma-alvo para a aplicação móvel (iOS, Android, etc.).
+- Projetar a interface do usuário da aplicação móvel, considerando as diretrizes de design da plataforma.
+- Desenvolver as telas e fluxos de navegação da aplicação móvel.
+- Integrar as APIs e serviços web relevantes à aplicação móvel.
+- Implementar recursos nativos, como notificações push e geolocalização, se necessário.
+- Realizar testes em dispositivos reais e emuladores para garantir a compatibilidade e o desempenho.
+  
+**ETAPA 5: Apresentação**
+- Preparar materiais visuais e de apresentação, como slides ou demonstrações.
+- Realizar uma apresentação para as partes interessadas, destacando os principais recursos e benefícios do sistema.
+- Demonstrar a funcionalidade das aplicações web e móveis, incluindo o uso das APIs e serviços web.
+- Receber feedback das partes interessadas e responder a perguntas.
+- Fornecer informações sobre como acessar e usar as aplicações após o lançamento.
 
 ## Gerenciamento de Equipe
 
