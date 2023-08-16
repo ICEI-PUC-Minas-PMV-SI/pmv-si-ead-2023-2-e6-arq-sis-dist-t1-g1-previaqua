@@ -9,9 +9,13 @@ Problemas de comunicação e/ou coordenação entre os sistemas de alerta precoc
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+No cenário dinâmico de hoje, um sistema avançado de coleta e processamento de dados climáticos em tempo real é essencial. Graças a algoritmos de modelagem, ele prevê inundações e emite alertas personalizados. Tudo isso é apresentado em uma interface intuitiva para ações informadas. Juntos, esses elementos abordam os desafios climáticos enquanto protegem proativamente as comunidades.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+- Desenvolver um sistema de coleta e processamento de dados meteorológicos em tempo real.
+- Implementar algoritmos de modelagem climática para previsão de inundações.
+- Criar um mecanismo de alerta para diferentes grupos de usuários.
+- Fornecer uma interface de usuário simples e intuitiva para visualizar dados climáticos e alertas.
+
  
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
