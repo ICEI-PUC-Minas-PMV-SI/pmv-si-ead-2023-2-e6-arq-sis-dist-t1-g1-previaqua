@@ -3,16 +3,9 @@
 Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+A falta de previsões meteorológicas e alertas de inundações precisos e antecipados pode levar a danos significativos em comunidades propensas a inundações. Comunidades urbanas em regiões de risco são as mais afetadas, como por exemplo as comunidades próximas a rios, sitema de esgoto com drenagem inadequada, chuvas intensas ou encostas. As inundações representam uma ameaça importante a vidas, propriedades e infraestruturas, podendo levar a perdas econômicas e sociais consideráveis. 
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Problemas de comunicação e/ou coordenação entre os sistemas de alerta precoce e os órgãos responsáveis por garantir a segurança da população residente em áreas de risco pode levar a um agravamento da situação, gerando um atraso no tempo de resposta.
 
 ## Objetivos
 
