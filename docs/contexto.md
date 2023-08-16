@@ -71,10 +71,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
+|Usuário do sistema  |Receber alertas de enchentes        | Para poder tomar medidas preventivas para proteger minha família e meu patrimônio                                                          
+|Usuário do sistema  |Acessar dados meteorológicos em tempo real e alertas de enchentes |  Ajudar as pessoas em emergências e evacuação, se necessário|     
+|Usuário do sistema  | Informações detalhadas sobre possíveis áreas de inundações |  melhorar o design de infraestruturas e sistemas de drenagem |
+|Usuário do sistema  |  Acesso a dados históricos e em tempo real | Melhorar meus estudos sobre padrões climáticos e fenômenos de inundações |
 |Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
