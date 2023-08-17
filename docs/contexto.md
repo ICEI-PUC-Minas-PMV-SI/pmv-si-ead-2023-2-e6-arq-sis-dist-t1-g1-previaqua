@@ -5,7 +5,7 @@ Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o pr
 ## Problema
 A falta de previsões meteorológicas e alertas de inundações precisos e antecipados pode levar a danos significativos em comunidades propensas a inundações. As comunidades urbanas em regiões de risco são as mais afetadas, como, por exemplo, as comunidades próximas a rios, sistemas de esgoto com drenagem inadequada, chuvas intensas ou encostas. As inundações representam uma ameaça importante às vidas, propriedades e infraestruturas, podendo levar a perdas econômicas e sociais consideráveis.
 
-Problemas de comunicação e/ou coordenação entre os sistemas de alerta precoce e os órgãos responsáveis por garantir a segurança da população residente em áreas de risco podem levar a um agravamento da situação, gerando um atraso no tempo de resposta.
+Problemas de comunicação entre os sistemas de alerta precoce e a população residente em áreas de risco podem levar a um agravamento da situação, aumentando o potencial de danos e atrasando a resposta eficaz diante de ameaças iminentes, comprometendo assim a segurança e o bem-estar de todos os envolvidos. 
 
 ## Objetivos
 
