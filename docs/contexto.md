@@ -11,10 +11,24 @@ Problemas de comunicação entre os sistemas de alerta precoce e a população r
 
 No cenário dinâmico de hoje, um sistema avançado de coleta e processamento de dados climáticos em tempo real é essencial. Graças a algoritmos de modelagem, ele prevê inundações e emite alertas personalizados. Tudo isso é apresentado em uma interface intuitiva para ações informadas. Juntos, esses elementos abordam os desafios climáticos enquanto protegem proativamente as comunidades.
 
-- Desenvolver um sistema de coleta e processamento de dados meteorológicos em tempo real.
-- Implementar algoritmos de modelagem climática para previsão de inundações.
-- Criar um mecanismo de alerta para diferentes grupos de usuários.
-- Fornecer uma interface de usuário simples e intuitiva para visualizar dados climáticos e alertas.
+- **Fornecer Previsões Meteorológicas Precisas:** Nosso aplicativo visa oferecer previsões meteorológicas confiáveis e precisas para os usuários, permitindo que eles estejam preparados para condições climáticas adversas.
+- **Alertar sobre Inundações Potenciais:** O aplicativo visa fornecer alertas em tempo real sobre condições climáticas que possam levar a inundações, ajudando as comunidades a tomarem medidas preventivas e de segurança.
+- **Facilitar o Acesso à Informação:** Nosso objetivo é tornar as informações meteorológicas facilmente acessíveis para usuários de todas as faixas etárias e níveis de familiaridade com tecnologia.
+- **Personalização das Preferências:** Pretendemos permitir que os usuários personalizem suas configurações de notificação e visualizem informações meteorológicas relevantes com base em suas preferências individuais.
+
+## Indicadores de Desempenho
+
+- **Precisão das Previsões:** A precisão das previsões meteorológicas será avaliada comparando as previsões do aplicativo com os dados reais. Buscaremos uma alta taxa de precisão para ganhar a confiança dos usuários.
+- **Tempo de Alerta de Inundações:** Mediremos o tempo que leva para o aplicativo emitir alertas sobre condições propícias a inundações após recebermos informações relevantes. Nosso objetivo é fornecer alertas o mais cedo possível.
+- **Taxa de Adoção:** Acompanharemos quantos usuários estão adotando o aplicativo em relação à base de usuários total. Uma taxa crescente de adoção indica que estamos atendendo às necessidades dos usuários.
+- **Avaliações e Feedback dos Usuários:** Monitoraremos as avaliações e o feedback dos usuários por meio das lojas de aplicativos e canais de suporte. Isso nos ajudará a identificar áreas de melhoria e reconhecer recursos bem-sucedidos.
+  
+## Gerenciamento de Equipe
+
+- **Definição de Funções e Responsabilidades:** Cada membro da equipe terá funções e responsabilidades claras para garantir uma divisão eficiente do trabalho e evitar redundâncias.
+- **Comunicação Eficiente:** Utilizaremos ferramentas de comunicação interna para manter todos os membros da equipe informados sobre o progresso, desafios e metas alcançadas.
+- **Acompanhamento de Tarefas:** Faremos uso de ferramentas de gestão de projetos para atribuir tarefas, definir prazos e monitorar o andamento das atividades.
+- **Feedback e Melhoria Contínua:** Incentivaremos um ambiente de feedback aberto, onde os membros da equipe possam compartilhar ideias, sugestões e preocupações para promover a melhoria contínua do projeto.
 
  
 > **Links Úteis**:
