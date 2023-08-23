@@ -52,19 +52,133 @@ Dados os problemas resultado das enchentes e seus afetados, se torna evidente a 
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+### Persona 1
+**Nome**: Moacir Coelho
+**Idade**: 54 anos
+**Profissão**: Comerciante
+**Localização**: Recife, PE
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Contexto:
+Moacir é um comerciante estabelecido em Recife, uma cidade litorânea que enfrenta problemas sazonais de enchentes devido às chuvas intensas e à proximidade com o mar. Ele é casado e tem dois filhos adultos que moram na mesma cidade.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Objetivos e Necessidades:
+Moacir está preocupado com a segurança de sua família e com a possibilidade de danos à sua loja e estoque durante as enchentes. Seu objetivo principal é receber informações precisas e antecipadas sobre a probabilidade de enchentes para tomar decisões bem informadas sobre a proteção de seus bens e de sua família.
+
+Comportamentos e Hábitos:
+Moacir costuma assistir aos noticiários locais e acessar sites de meteorologia em seu computador. Ele também confere os níveis dos rios nas redondezas para avaliar o risco de enchentes. Além disso, ele gosta de participar de grupos de moradores nas redes sociais para compartilhar informações e dicas de prevenção.
+
+Desafios e Motivações:
+Os desafios de Moacir incluem a dificuldade em acessar informações atualizadas em tempo real sobre os níveis dos rios e previsões de chuvas intensas. Sua motivação é encontrar uma solução prática e confiável que o ajude a tomar decisões rápidas e eficazes para proteger seus bens e sua família.
+
+Histórias e Cenários:
+
+Cenário 1: Moacir está na loja quando começa a chover intensamente. Ele verifica seu smartphone em busca de informações sobre as previsões de enchentes e fica ansioso para obter dados precisos para saber se deve fechar a loja mais cedo e adotar medidas de proteção.
+
+Cenário 2: Moacir recebe um aviso de chuvas fortes no celular enquanto está em casa com sua família. Ele compartilha imediatamente as informações com sua esposa e filhos e começa a movimentar estoques mais valiosos para áreas mais elevadas da loja.
+
+Objetivos do Projeto:
+Para o projeto de alerta de enchentes, Moacir seria um usuário valioso, buscando informações atualizadas e práticas para tomar decisões de negócios e proteção da família durante episódios de chuvas intensas e enchentes. Sua participação no projeto contribuiria para a criação de um sistema de alerta eficaz e relevante para os empresários e residentes de áreas propensas a enchentes em Recife.
+
+### Persona 2
+**Nome**: Ana Clara
+**Idade**: 18 anos
+**Ocupação**: Estudante universitária
+**Localização**: São Paulo, SP
+
+Contexto:
+Ana Clara é uma estudante universitária que vive em São Paulo, uma cidade que pode enfrentar enchentes durante o período de chuvas intensas. Ela mora com sua família em um apartamento na zona urbana da cidade.
+
+Objetivos e Necessidades:
+Ana Clara está preocupada com a segurança de sua família e a possibilidade de interrupções em sua rotina de estudos devido a enchentes. Seu principal objetivo é receber alertas rápidos e confiáveis para que ela e sua família possam se preparar adequadamente e evitar problemas de mobilidade durante as enchentes.
+
+Comportamentos e Hábitos:
+Ana Clara costuma verificar o aplicativo de previsão do tempo em seu smartphone todas as manhãs para saber o que esperar em relação ao clima. Ela também está ativa nas redes sociais, onde compartilha informações e dicas de prevenção com amigos e familiares.
+
+Desafios e Motivações:
+Os desafios de Ana Clara incluem a necessidade de informações claras e atualizadas que possam ajudá-la a se preparar para a escola e outras atividades, mesmo em condições climáticas adversas. Sua motivação é evitar atrasos e transtornos devido a enchentes, garantindo que possa continuar com sua rotina normal.
+
+Histórias e Cenários:
+
+Cenário 1: Ana Clara acorda cedo para ir para a universidade e verifica seu celular para verificar as condições climáticas. Ela fica aliviada ao ver um alerta de chuva intensa e decide pegar o metrô em vez de ir de ônibus, para evitar possíveis atrasos devido a enchentes nas ruas.
+
+Cenário 2: Ana Clara está estudando em casa quando começa a chover forte. Ela recebe um alerta em seu smartphone sobre a possibilidade de enchentes na região e avisa seus pais para estarem preparados, caso a situação se agrave.
+
+Objetivos do Projeto:
+No projeto de alerta de enchentes, Ana Clara representaria uma usuária jovem e conectada, interessada em receber informações em tempo real para planejar suas atividades diárias e garantir sua segurança e a de sua família. Sua participação ajudaria a criar um sistema de alerta que atendesse às necessidades das gerações mais jovens e tecnologicamente envolvidas.
+
+
+### Persona 3
+**Nome**: Maria Cleuza
+**Idade**: 72 anos
+**Ocupação**: Aposentada
+**Localização**: Salvador, BA
+
+Contexto:
+Maria Cleuza é uma aposentada que vive em Salvador, uma cidade costeira que pode enfrentar enchentes devido às chuvas intensas e à proximidade do mar. Ela mora sozinha em uma casa térrea em um bairro mais antigo da cidade.
+
+Objetivos e Necessidades:
+Maria Cleuza está preocupada com sua segurança durante as enchentes e deseja receber informações confiáveis que a ajudem a se proteger. Sua principal necessidade é ser alertada de forma simples e acessível, já que ela não está acostumada a utilizar computadores ou smartphones.
+
+Comportamentos e Hábitos:
+Maria Cleuza confia principalmente na televisão e no rádio como suas fontes primárias de informações. Ela gosta de ler o jornal local todas as manhãs e confiar nas recomendações dos vizinhos e amigos em situações de risco.
+
+Desafios e Motivações:
+Os desafios de Maria Cleuza incluem sua falta de familiaridade com tecnologia, o que a impede de receber alertas online ou via smartphone. Sua motivação é receber alertas de maneira simples e compreensível, para poder agir prontamente diante de possíveis enchentes.
+
+Histórias e Cenários:
+
+Cenário 1: Maria Cleuza está assistindo à televisão à noite quando um anúncio sobre previsões de chuvas fortes aparece. Ela anota as informações importantes e coloca o papel na geladeira como lembrete para ficar atenta às condições climáticas.
+
+Cenário 2: Durante um almoço com amigos, um vizinho menciona que ouviu no rádio sobre a possibilidade de chuvas intensas. Maria Cleuza presta atenção ao que o vizinho diz e decide se informar mais sobre as condições climáticas através do noticiário da televisão.
+
+Objetivos do Projeto:
+Para o projeto de alerta de enchentes, Maria Cleuza representa um público mais idoso e que não está familiarizado com a tecnologia moderna. O desafio é fornecer informações acessíveis por meio de canais tradicionais, como televisão e rádio, para garantir que ela possa receber alertas e se proteger em situações de risco. Sua participação é crucial para garantir que pessoas de todas as idades se beneficiem do sistema de alerta.
+
+### Persona 4
+**Nome**: Davi
+**Idade**: 3 anos
+**Localização**: Curitiba, PR
+**Ocupação**: Criança em fase pré-escolar
+
+Características:
+Davi é uma criança curiosa e enérgica, cheia de imaginação e desejo de explorar o mundo ao seu redor. Ele está na fase pré-escolar, frequentando uma creche e aprendendo a interagir com outras crianças e adultos.
+
+Comportamentos e Hábitos:
+Davi gosta de brincar ao ar livre, explorar o jardim, brincar com brinquedos coloridos e passar tempo com seus colegas de creche. Ele ainda não tem habilidades de leitura ou compreensão de conceitos complexos.
+
+Desafios e Motivações:
+Davi não possui a capacidade de entender informações complexas ou lidar com situações de risco, como enchentes. Ele é motivado principalmente pelo desejo de diversão, aprendizado e interação com os outros. Seu desafio é depender da orientação de adultos para garantir sua segurança.
+
+Objetivos do Projeto:
+Embora Davi não seja o usuário principal de um sistema de alerta de enchentes, ele representa a importância de proteger os mais jovens e vulneráveis em situações de risco. O sistema de alerta deve ser eficaz o suficiente para que os adultos ao seu redor possam tomar medidas adequadas para sua segurança e proteção durante eventos climáticos extremos.
+
+### Persona 5
+**Nome**: Ravi Januzzi
+**Idade**: 34 anos
+**Profissão**: Engenheiro de Software
+**Localização**: Brasília, DF
+
+Contexto:
+Ravi é um engenheiro de software que vive em Brasília, uma cidade sujeita a fortes chuvas em certas épocas do ano. Ele é solteiro e mora sozinho em um apartamento próximo ao centro da cidade.
+
+Objetivos e Necessidades:
+Ravi está interessado em receber alertas precisos e oportunos sobre enchentes para garantir sua segurança e proteção de seus pertences. Além disso, ele quer estar bem informado para evitar problemas no deslocamento e possíveis atrasos em seu trabalho.
+
+Comportamentos e Hábitos:
+Ravi acompanha as condições climáticas através de aplicativos de previsão do tempo em seu smartphone. Ele também lê notícias online e é ativo em redes sociais, compartilhando informações relevantes com amigos e colegas.
+
+Desafios e Motivações:
+Ravi enfrenta o desafio de equilibrar sua rotina de trabalho e vida pessoal, enquanto se mantém informado sobre as condições climáticas. Sua motivação é a segurança pessoal e a conveniência de poder planejar suas atividades diárias de acordo com as condições climáticas.
+
+Histórias e Cenários:
+
+Cenário 1: Ravi está no trabalho quando recebe um alerta em seu smartphone sobre a possibilidade de enchentes em sua área. Ele considera sair mais cedo para evitar problemas no trânsito e garantir que sua casa esteja segura.
+
+Cenário 2: Durante um fim de semana, Ravi planeja um passeio ao ar livre com amigos. Ele verifica o aplicativo de previsão do tempo para se certificar de que o tempo estará bom para a atividade planejada.
+
+Objetivos do Projeto:
+Ravi representa um usuário tecnicamente apto e ativo online, que busca informações precisas e convenientes para se proteger e se adaptar às condições climáticas adversas. Sua participação no projeto de alerta de enchentes ajuda a garantir que a solução atenda às necessidades de pessoas engajadas como ele, que desejam otimizar suas atividades com base nas condições climáticas.
+
 
 ## Histórias de Usuários
 
@@ -73,10 +187,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  |Receber alertas de enchentes        | Para poder tomar medidas preventivas para proteger minha família e meu patrimônio                                                          
-|Usuário do sistema  |Acessar dados meteorológicos em tempo real e alertas de enchentes |  Ajudar as pessoas em emergências e evacuação, se necessário|     
-|Usuário do sistema  | Informações detalhadas sobre possíveis áreas de inundações |  melhorar o design de infraestruturas e sistemas de drenagem |
-|Usuário do sistema  |  Acesso a dados históricos e em tempo real | Melhorar meus estudos sobre padrões climáticos e fenômenos de inundações |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  |Acessar dados meteorológicos em tempo real e alertas de enchentes |Ajudar as pessoas em emergências e evacuação, se necessário|     
+|Usuário do sistema  |Informações detalhadas sobre possíveis áreas de inundações |Melhorar o design de infraestruturas e sistemas de drenagem |
+|Usuário do sistema  |Acesso a dados históricos e em tempo real |Melhorar meus estudos sobre padrões climáticos e fenômenos de inundações |
+|Administrador       |Alterar permissões                 |Permitir que possam administrar contas |
 
 
 
