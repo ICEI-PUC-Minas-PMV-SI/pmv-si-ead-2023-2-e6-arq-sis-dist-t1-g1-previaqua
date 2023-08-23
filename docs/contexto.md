@@ -1,60 +1,40 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Este projeto aborda a carência de previsões meteorológicas precisas e alertas de inundações, visando proteger comunidades vulneráveis. Desenvolveremos um sistema de informações climáticas em tempo real, abrangendo públicos diversos, desde moradores em áreas de risco até autoridades e empresas locais. A relevância desse projeto se baseia na necessidade vital de proteção e na possibilidade de replicação do mesmo.
 
 ## Problema
+
 A falta de previsões meteorológicas e alertas de inundações precisos e antecipados pode levar a danos significativos em comunidades propensas a inundações. As comunidades urbanas em regiões de risco são as mais afetadas, como, por exemplo, as comunidades próximas a rios, sistemas de esgoto com drenagem inadequada, chuvas intensas ou encostas. As inundações representam uma ameaça importante às vidas, propriedades e infraestruturas, podendo levar a perdas econômicas e sociais consideráveis.
 
 Problemas de comunicação entre os sistemas de alerta precoce e a população residente em áreas de risco podem levar a um agravamento da situação, aumentando o potencial de danos e atrasando a resposta eficaz diante de ameaças iminentes, comprometendo assim a segurança e o bem-estar de todos os envolvidos. 
 
 ## Objetivos
 
-No cenário dinâmico de hoje, um sistema avançado de coleta e processamento de dados climáticos em tempo real é essencial. Graças a algoritmos de modelagem, ele prevê inundações e emite alertas personalizados. Tudo isso é apresentado em uma interface intuitiva para ações informadas. Juntos, esses elementos abordam os desafios climáticos enquanto protegem proativamente as comunidades.
-
-- **Fornecer Previsões Meteorológicas Precisas:** Nosso aplicativo visa oferecer previsões meteorológicas confiáveis e precisas para os usuários, permitindo que eles estejam preparados para condições climáticas adversas.
+- **Fornecer Previsões Meteorológicas:** Nosso aplicativo visa oferecer previsões meteorológicas confiáveis e precisas para os usuários, permitindo que eles estejam preparados para condições climáticas adversas.
 - **Alertar sobre Inundações Potenciais:** O aplicativo visa fornecer alertas em tempo real sobre condições climáticas que possam levar a inundações, ajudando as comunidades a tomarem medidas preventivas e de segurança.
 - **Facilitar o Acesso à Informação:** Nosso objetivo é tornar as informações meteorológicas facilmente acessíveis para usuários de todas as faixas etárias e níveis de familiaridade com tecnologia.
 - **Personalização das Preferências:** Pretendemos permitir que os usuários personalizem suas configurações de notificação e visualizem informações meteorológicas relevantes com base em suas preferências individuais.
 
-## Indicadores de Desempenho
-
-- **Precisão das Previsões:** A precisão das previsões meteorológicas será avaliada comparando as previsões do aplicativo com os dados reais. Buscaremos uma alta taxa de precisão para ganhar a confiança dos usuários.
-- **Tempo de Alerta de Inundações:** Mediremos o tempo que leva para o aplicativo emitir alertas sobre condições propícias a inundações após recebermos informações relevantes. Nosso objetivo é fornecer alertas o mais cedo possível.
-- **Taxa de Adoção:** Acompanharemos quantos usuários estão adotando o aplicativo em relação à base de usuários total. Uma taxa crescente de adoção indica que estamos atendendo às necessidades dos usuários.
-- **Avaliações e Feedback dos Usuários:** Monitoraremos as avaliações e o feedback dos usuários por meio das lojas de aplicativos e canais de suporte. Isso nos ajudará a identificar áreas de melhoria e reconhecer recursos bem-sucedidos.
-  
-## Gerenciamento de Equipe
-
-- **Definição de Funções e Responsabilidades:** Cada membro da equipe terá funções e responsabilidades claras para garantir uma divisão eficiente do trabalho e evitar redundâncias.
-- **Comunicação Eficiente:** Utilizaremos ferramentas de comunicação interna para manter todos os membros da equipe informados sobre o progresso, desafios e metas alcançadas.
-- **Acompanhamento de Tarefas:** Faremos uso de ferramentas de gestão de projetos para atribuir tarefas, definir prazos e monitorar o andamento das atividades.
-- **Feedback e Melhoria Contínua:** Incentivaremos um ambiente de feedback aberto, onde os membros da equipe possam compartilhar ideias, sugestões e preocupações para promover a melhoria contínua do projeto.
-
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
-
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A justificativa para o desenvolvimento deste projeto reside na necessidade crucial de enfrentar os danos crescentes causados por inundações e eventos climáticos extremos. A falta de previsões e alertas precisos coloca vidas, propriedades e economias em risco.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+No início de 2022, o Brasil enfrentou condições secas em várias regiões, mas eventos significativos de inundações impactaram o país. O Rio de Janeiro sofreu com enchentes mortais em fevereiro, causando 232 óbitos. Esses eventos foram registrados no relatório "Weather, Climate and Catastrophe Insight" de 2023, produzido pela empresa Aon, destacando a necessidade de conscientização diante das mudanças climáticas.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O projeto busca fornecer informações oportunas e relevantes para comunidades em áreas de risco, capacitando-as a se prepararem e responderem de maneira eficaz. Além disso, a natureza potencialmente replicável do projeto o transforma em uma iniciativa de grande valor para impulsionar a resiliência climática.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo dessa aplicação é diversificado, abrangendo diferentes perfis de usuários que podem se beneficiar das informações meteorológicas e alertas de inundações. Esses perfis incluem:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+1. **Residentes em Áreas de Risco:** Indivíduos que vivem em comunidades urbanas próximas a rios, encostas ou outras áreas propensas a inundações. Esse grupo tem interesse direto nas informações para proteger suas vidas e propriedades.
+2. **Autoridades e Gestores Públicos:** Órgãos governamentais, agências de defesa civil e gestores de emergência que precisam de informações precisas para tomar decisões informadas e coordenar ações eficazes em resposta a eventos climáticos extremos.
+3. **Empresas e Comércios Locais:** Empresas, comércios e empreendedores que operam em áreas de risco podem se beneficiar ao receber alertas antecipados para minimizar danos a seus estabelecimentos.
+4. **Comunidade Científica e Acadêmica:** Pesquisadores e acadêmicos que estudam mudanças climáticas, fenômenos meteorológicos e suas implicações sociais podem usar os dados para análises e pesquisas.
+5. **Indivíduos Interessados em Meio Ambiente:** Pessoas interessadas em acompanhar informações climáticas e que desejam contribuir para a resiliência das comunidades podem utilizar a aplicação.
+6. **Usuários com Diferentes Níveis de Experiência Tecnológica:** A aplicação é projetada para ser acessível a usuários com diferentes níveis de familiaridade com a tecnologia, permitindo que todos possam aproveitar seus benefícios.
 
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Ao atender a esses diversos perfis de usuários, nosso objetivo é fornecer informações relevantes, personalizadas e de fácil acesso, promovendo a segurança, a conscientização e a preparação diante das ameaças climáticas.
 
 # Especificações do Projeto
 
@@ -114,6 +94,11 @@ Usar o seguinte modelo:
 
 ![Indicadores de Desempenho](img/02-indic-desemp.png)
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+
+- **Precisão das Previsões:** A precisão das previsões meteorológicas será avaliada comparando as previsões do aplicativo com os dados reais. Buscaremos uma alta taxa de precisão para ganhar a confiança dos usuários.
+- **Tempo de Alerta de Inundações:** Mediremos o tempo que leva para o aplicativo emitir alertas sobre condições propícias a inundações após recebermos informações relevantes. Nosso objetivo é fornecer alertas o mais cedo possível.
+- **Taxa de Adoção:** Acompanharemos quantos usuários estão adotando o aplicativo em relação à base de usuários total. Uma taxa crescente de adoção indica que estamos atendendo às necessidades dos usuários.
+- **Avaliações e Feedback dos Usuários:** Monitoraremos as avaliações e o feedback dos usuários por meio das lojas de aplicativos e canais de suporte. Isso nos ajudará a identificar áreas de melhoria e reconhecer recursos bem-sucedidos.
 
 ## Requisitos
 
@@ -237,6 +222,11 @@ O gerenciamento de projetos é uma disciplina dinâmica e fundamental que visa p
 ## Gerenciamento de Equipe
 
 O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+
+- **Definição de Funções e Responsabilidades:** Cada membro da equipe terá funções e responsabilidades claras para garantir uma divisão eficiente do trabalho e evitar redundâncias.
+- **Comunicação Eficiente:** Utilizaremos ferramentas de comunicação interna para manter todos os membros da equipe informados sobre o progresso, desafios e metas alcançadas.
+- **Acompanhamento de Tarefas:** Faremos uso de ferramentas de gestão de projetos para atribuir tarefas, definir prazos e monitorar o andamento das atividades.
+- **Feedback e Melhoria Contínua:** Incentivaremos um ambiente de feedback aberto, onde os membros da equipe possam compartilhar ideias, sugestões e preocupações para promover a melhoria contínua do projeto.
 
 ![Simple Project Timeline](img/02-project-timeline.png)
 
