@@ -39,9 +39,16 @@ Ao atender a esses diversos perfis de usuários, nosso objetivo é fornecer info
 # Especificações do Projeto
 
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+As enchentes constituem um desafio relevante em cidades brasileiras, acarretando consequências abrangentes para a população e a infraestrutura urbana. Cerca de 9,5 milhões de brasileiros moram em áreas de risco sujeitas a deslizamentos de terra, enchentes e outros desastres climáticos. A estimativa é do Centro Nacional de Monitoramento e Alertas de Desastres Naturais (Cemaden), vinculado ao Ministério de Ciência, Tecnologia e Inovações.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Essas enchentes resultam em danos físicos, contaminação hídrica e desalojamento, particularmente em regiões densamente povoadas devido à redução da absorção de água por superfícies impermeáveis. O risco é ainda maior em áreas de encosta, onde podem ocorrer deslizamentos de terra.
+
+A mitigação desse problema requer um enfoque abrangente que abarque o planejamento urbano, a infraestrutura de drenagem, a monitorização climática e a conscientização pública. A implementação de políticas de prevenção é imperativa para salvaguardar vidas e meios de subsistência, especialmente nas comunidades mais vulneráveis.
+
+Em suma, as enchentes nas cidades brasileiras demandam ações coordenadas para minimizar seus impactos. A quantidade de pessoas em áreas de risco, conforme indicada pelo Cemaden, enfatiza a urgência de medidas efetivas para assegurar a segurança e a qualidade de vida de toda a população.
+
+Dados os problemas resultado das enchentes e seus afetados, se torna evidente a necessidade de um dispositivo que informe em tempo hábil ao morador e aos órgãos públicos a localidade, intensidade e grau de risco que a chuva pode trazer para que os impactados se antecipem e tomem as devidas providências.
+
 
 ## Personas
 
