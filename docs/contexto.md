@@ -383,7 +383,7 @@ Neste contexto, apresentaremos uma visão geral das tecnologias originalmente co
 - Frameworks: EntityFrameWork (Backend)
 - Bancos de Dados: MySql
 - Ferramentas de Modelagem Climática
-- Serviços de Notificação em Tempo Real (por exemplo, Firebase Cloud Messaging)
+- Serviços de Notificação em Tempo Real (Amazon SNS)
 - Ferramentas de Visualização de Dados
 
 
