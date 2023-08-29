@@ -391,11 +391,13 @@ Neste contexto, apresentaremos uma visão geral das tecnologias originalmente co
 
 ## Hospedagem
 
-Explique como a hospedagem e o lançamento da plataforma foi feita.
+**Frontend (aplicativos web e móveis):**
+Sites: vamos utilizar o Amazon S3 (Simple Storage Service) para hospedar os arquivos estáticos do site.
+Aplicativo Móvel: Para um aplicativo móvel, o frontend será incluído diretamente no aplicativo e não precisará ser hospedado na nuvem.
 
-> **Links Úteis**:
->
-> - [Website com GitHub Pages](https://pages.github.com/)
-> - [Programação colaborativa com Repl.it](https://repl.it/)
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Publicando Seu Site No Heroku](http://pythonclub.com.br/publicando-seu-hello-world-no-heroku.html)
+**Back-end (C#/.NET com Entity Framework e MySQL):**
+Para hospedagem de back-end, vamos utilizar o Amazon EC2 (Elastic Compute Cloud).
+
+**Base de dados:**
+Utilizaremos o Amazon RDS (Relational Database Service) para hospedar seu banco de dados MySQL, que oferece fácil gerenciamento de bancos de dados relacionais.
+
