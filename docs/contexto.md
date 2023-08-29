@@ -240,10 +240,16 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+| ID     | Descrição do Requisito                                        | Prioridade |
+|--------|---------------------------------------------------------------|------------|
+| RNF-003 | A precisão das previsões meteorológicas deve ser >90%         | Alta       |
+| RNF-004 | Tempo de atualização das informações meteorológicas < 15 min  | Média      |
+| RNF-005 | Aplicação leve para execução eficiente em diversos dispositivos | Alta       |
+| RNF-006 | Compatibilidade com sistemas operacionais Android e iOS       | Alta       |
+| RNF-007 | Design de interface do usuário conforme melhores práticas    | Média      |
+| RNF-008 | Lidar com picos de tráfego mantendo estabilidade e velocidade | Alta       |
+| RNF-009 | Armazenamento seguro de dados dos usuários                    | Alta       |
+| RNF-010 | Conformidade com padrões de acessibilidade                     | Alta       |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
