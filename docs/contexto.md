@@ -355,7 +355,10 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 - **Acompanhamento de Tarefas:** Faremos uso de ferramentas de gestão de projetos para atribuir tarefas, definir prazos e monitorar o andamento das atividades.
 - **Feedback e Melhoria Contínua:** Incentivaremos um ambiente de feedback aberto, onde os membros da equipe possam compartilhar ideias, sugestões e preocupações para promover a melhoria contínua do projeto.
 
-![Simple Project Timeline](img/02-project-timeline.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua/assets/40677663/3187cfaa-343d-465a-8a07-78370a5c92d1)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua/assets/40677663/0d55b5aa-7d70-4e83-969f-2fff36738a23)
+
+
 
 # Arquitetura da Solução
 
@@ -366,9 +369,9 @@ Definição de como o software é estruturado em termos dos componentes que faze
 
 ## Tecnologias Utilizadas
 
-/*Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+No desenvolvimento de qualquer projeto, a escolha das tecnologias desempenha um papel crucial. As tecnologias selecionadas definem a base do projeto e afetam diretamente a sua eficiência, escalabilidade e funcionalidade. É importante mencionar que durante o processo de desenvolvimento as tecnologias podem ser modificadas com base em novas informações e requisitos emergentes.
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.*/
+Neste contexto, apresentaremos uma visão geral das tecnologias originalmente consideradas para a implementação da solução. Essas escolhas podem ser flexíveis à medida que o projeto avança e novos insights surgem.
 
 - Linguagens de Programação: C#/.NET
 - Frameworks: EntityFrameWork (Backend)
