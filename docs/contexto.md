@@ -356,9 +356,10 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 # Arquitetura da Solução
 
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+A definição da arquitetura de software inclui a organização dos elementos que compõem a solução, bem como o contexto em que a aplicação será hospedada. Essa estrutura inclui a arquitetura do software, os componentes que o compõem e a infraestrutura necessária para garantir seu bom funcionamento. Neste contexto, é essencial considerar tanto os aspectos técnicos como os requisitos operacionais para criar uma base sólida para o desenvolvimento, implantação e manutenção de aplicações.
 
-![Arquitetura da Solução](img/02-mob-arch.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua/assets/40677663/a7ba9ce4-4e49-4b1d-a5d3-5759c67a9242)
+
 
 ## Tecnologias Utilizadas
 
