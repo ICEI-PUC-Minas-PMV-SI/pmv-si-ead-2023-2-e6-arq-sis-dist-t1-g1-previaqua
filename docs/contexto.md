@@ -320,7 +320,7 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 A definição da arquitetura de software inclui a organização dos elementos que compõem a solução, bem como o contexto em que a aplicação será hospedada. Essa estrutura inclui a arquitetura do software, os componentes que o compõem e a infraestrutura necessária para garantir seu bom funcionamento. Neste contexto, é essencial considerar tanto os aspectos técnicos como os requisitos operacionais para criar uma base sólida para o desenvolvimento, implantação e manutenção de aplicações.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua/assets/40677663/a7ba9ce4-4e49-4b1d-a5d3-5759c67a9242)
-![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua/blob/2f1232e72bdc556eb6a944f61c4d2a2289c82061/docs/img/arquitetura-da-solucao.png)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua/blob/b166e0b1a7d68cca601691ff55ead1c468721ed2/arquitetura-da-solucao.png)
 
 ## Tecnologias Utilizadas
 
