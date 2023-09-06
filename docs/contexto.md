@@ -192,15 +192,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Usuário do sistema  |Acesso a dados históricos e em tempo real |Melhorar meus estudos sobre padrões climáticos e fenômenos de inundações |
 |Administrador       |Alterar permissões                 |Permitir que possam administrar contas |
 
-
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
@@ -251,21 +242,6 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RNF-009 | Armazenamento seguro de dados dos usuários                    | Alta       |
 | RNF-010 | Conformidade com padrões de acessibilidade                     | Alta       |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
@@ -273,13 +249,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
@@ -288,11 +257,6 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 # Matriz de Rastreabilidade
 A tabela a seguir apresenta a Matriz de Rastreabilidade dos Requisitos do projeto.
 ![Matriz de Rastreabilidade](img/matriz.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
 
 
 # Gerenciamento de Projeto
@@ -351,15 +315,11 @@ O gerenciamento adequado de tarefas contribuirá para que o projeto alcance alto
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua/assets/40677663/3187cfaa-343d-465a-8a07-78370a5c92d1)
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua/assets/40677663/0d55b5aa-7d70-4e83-969f-2fff36738a23)
 
-
-
 # Arquitetura da Solução
-
 
 A definição da arquitetura de software inclui a organização dos elementos que compõem a solução, bem como o contexto em que a aplicação será hospedada. Essa estrutura inclui a arquitetura do software, os componentes que o compõem e a infraestrutura necessária para garantir seu bom funcionamento. Neste contexto, é essencial considerar tanto os aspectos técnicos como os requisitos operacionais para criar uma base sólida para o desenvolvimento, implantação e manutenção de aplicações.
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua/assets/40677663/a7ba9ce4-4e49-4b1d-a5d3-5759c67a9242)
-
 
 ## Tecnologias Utilizadas
 
@@ -373,9 +333,6 @@ Neste contexto, apresentaremos uma visão geral das tecnologias originalmente co
 - Ferramentas de Modelagem Climática
 - Serviços de Notificação em Tempo Real (Amazon SNS)
 - Ferramentas de Visualização de Dados
-
-
-
 
 ## Hospedagem
 
