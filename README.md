@@ -15,8 +15,7 @@ O "PreviAqua" é um sistema de previsão meteorológica e alerta de inundações
 * Douglas Fernandes de Carvalho Jardim
 * Eduardo Henrique Costa Lara
 * Pedro Henrique Monti
-* Thomas Henrique Lousada 
-* Victor Mesquita Garcia Feltrim
+* Thomas Henrique Lousada
 
 ## Orientador
 
