@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "w1Uye5nVkhum5jbg9nYtDqT8nm++CFTsFb5cGvs7WILvL+L3lxNvs0GcDpk2NG5jVtePZgIYFdxf5h10Bh4O0A==",
+  "success": true,
+  "projectFilePath": "C:\\www\\PreviaAqua\\Api\\Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\amandaCol\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.14.0\\microsoft.visualstudio.azure.containers.tools.targets.1.14.0.nupkg.sha512"
+  ],
+  "logs": []
+}

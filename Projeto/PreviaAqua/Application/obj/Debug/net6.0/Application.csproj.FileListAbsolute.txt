@@ -1,0 +1,15 @@
+C:\www\PreviaAqua\Application\bin\Debug\net6.0\Application.exe
+C:\www\PreviaAqua\Application\bin\Debug\net6.0\Application.deps.json
+C:\www\PreviaAqua\Application\bin\Debug\net6.0\Application.runtimeconfig.json
+C:\www\PreviaAqua\Application\bin\Debug\net6.0\Application.dll
+C:\www\PreviaAqua\Application\bin\Debug\net6.0\Application.pdb
+C:\www\PreviaAqua\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\www\PreviaAqua\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\www\PreviaAqua\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\www\PreviaAqua\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\www\PreviaAqua\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\www\PreviaAqua\Application\obj\Debug\net6.0\Application.dll
+C:\www\PreviaAqua\Application\obj\Debug\net6.0\refint\Application.dll
+C:\www\PreviaAqua\Application\obj\Debug\net6.0\Application.pdb
+C:\www\PreviaAqua\Application\obj\Debug\net6.0\Application.genruntimeconfig.cache
+C:\www\PreviaAqua\Application\obj\Debug\net6.0\ref\Application.dll
