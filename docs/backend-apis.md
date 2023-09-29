@@ -91,48 +91,46 @@ A aplicação PreviAqua tem uma estrutura de dados que envolve principalmente in
 - Resposta:
   - Sucesso (200 OK)
     ```
-{
-  "message": "Success",
-  "data": {
-    "DC_NOME": "Nome da Cidade",
-    "PRE_INS": "Pressão atmosférica ao nível da estação, horária(mB)",
-    "TEM_SEN": "Sensação térmica",
-    "VL_LATITUDE": "Latitude",
-    "PRE_MAX": "Pressão atmosférica máxima na hora anterior(mB)",
-    "UF": "Unidade Federativa",
-    "RAD_GLO": "Radiação global(W/m2)",
-    "PTO_INS": "Temperatura do ponto de orvalho(°C)",
-    "TEM_MIN": "Temperatura mínima na hora anterior(°C)",
-    "VL_LONGITUDE": "Longitude",
-    "UMD_MIN": "Umidade relativa mínima na hora anterior(%)",
-    "PTO_MAX": "Temperatura orvalho máxima na hora anterior(°C)",
-    "VEN_DIR": "Vento, direção horária(°gr)",
-    "DT_MEDICAO": "Data da medição",
-    "CHUVA": "Precipitação total, horário(mm)",
-    "PRE_MIN": "Pressão atmosférica mínima na hora anterior(mB)",
-    "UMD_MAX": "Umidade relativa máxima na hora anterior(%)",
-    "VEN_VEL": "Vento, velocidade horária(m/s)",
-    "PTO_MIN": "Temperatura orvalho mínima na hora anterior(°C)",
-    "TEM_MAX": "Temperatura máxima na hora anterior(°C)",
-    "TEN_BAT": "Tensão da bateria da estação(V)",
-    "VEN_RAJ": "Vento, rajada máxima",
-    "TEM_CPU": "Temperatura do processador da estação(°C)",
-    "TEM_INS": "Temperatura do ar - bulbo seco, horária (°C)",
-    "UMD_INS": "Umidade relativa do ar, horária(%)",
-    "CD_ESTACAO": "Código da estação",
-    "HR_MEDICAO": "Hora da medição"
-  }
-}
+    {
+    "message": "Success",
+    "data": {
+      "DC_NOME": "Nome da Cidade",
+      "PRE_INS": "Pressão atmosférica ao nível da estação, horária(mB)",
+      "TEM_SEN": "Sensação térmica",
+      "VL_LATITUDE": "Latitude",
+      "PRE_MAX": "Pressão atmosférica máxima na hora anterior(mB)",
+      "UF": "Unidade Federativa",
+      "RAD_GLO": "Radiação global(W/m2)",
+      "PTO_INS": "Temperatura do ponto de orvalho(°C)",
+      "TEM_MIN": "Temperatura mínima na hora anterior(°C)",
+      "VL_LONGITUDE": "Longitude",
+      "UMD_MIN": "Umidade relativa mínima na hora anterior(%)",
+      "PTO_MAX": "Temperatura orvalho máxima na hora anterior(°C)",
+      "VEN_DIR": "Vento, direção horária(°gr)",
+      "DT_MEDICAO": "Data da medição",
+      "CHUVA": "Precipitação total, horário(mm)",
+      "PRE_MIN": "Pressão atmosférica mínima na hora anterior(mB)",
+      "UMD_MAX": "Umidade relativa máxima na hora anterior(%)",
+      "VEN_VEL": "Vento, velocidade horária(m/s)",
+      "PTO_MIN": "Temperatura orvalho mínima na hora anterior(°C)",
+      "TEM_MAX": "Temperatura máxima na hora anterior(°C)",
+      "TEN_BAT": "Tensão da bateria da estação(V)",
+      "VEN_RAJ": "Vento, rajada máxima",
+      "TEM_CPU": "Temperatura do processador da estação(°C)",
+      "TEM_INS": "Temperatura do ar - bulbo seco, horária (°C)",
+      "UMD_INS": "Umidade relativa do ar, horária(%)",
+      "CD_ESTACAO": "Código da estação",
+      "HR_MEDICAO": "Hora da medição"
+    }
+    }
     ```
   - Erro (404)
-    ```
-    {
+    ```{
   "message": "Cidade não encontrada, verifique os dados inseridos na requisição.",
   "error": "A cidade solicitada pelo usuário pode não estar no formato adequado (Ex: Ao invés de Rio de Janeiro: rio-de-janeiro, estar riodejaneiro)"
   }
   - Erro (500)
-    ```
-    {
+    ```{
   "message": "Erro interno do servidor: Nenhum resultado encontrado.",
   "error": "Caso aconteça, durante o processamento, algum erro não relacionado ao usuário."
   }
