@@ -126,16 +126,16 @@ A aplicação PreviAqua tem uma estrutura de dados que envolve principalmente in
     ```
   - Erro (404)
     ```
-{
+    {
   "message": "Cidade não encontrada, verifique os dados inseridos na requisição.",
   "error": "A cidade solicitada pelo usuário pode não estar no formato adequado (Ex: Ao invés de Rio de Janeiro: rio-de-janeiro, estar riodejaneiro)"
-}
+  }
   - Erro (500)
     ```
-{
+    {
   "message": "Erro interno do servidor: Nenhum resultado encontrado.",
   "error": "Caso aconteça, durante o processamento, algum erro não relacionado ao usuário."
-}
+  }
     ```
 
 ## Considerações de Segurança
