@@ -8,7 +8,11 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-
+	  <Folder Include="Localizacao\Queries\" />
+	  <Folder Include="PrevisaoMeteorologica\Commands\" />
+	  <Folder Include="Localizacao\Commands\" />
+	  <Folder Include="PrevisaoMeteorologica\Queries\" />
+	  <Folder Include="PrevisaoMeteorologica\" />
 	</ItemGroup>
 
 </Project>

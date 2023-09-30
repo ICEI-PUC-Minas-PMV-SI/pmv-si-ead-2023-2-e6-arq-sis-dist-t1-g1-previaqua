@@ -25,3 +25,6 @@ C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Infr
 C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Infra\obj\Debug\net6.0\refint\Infra.dll
 C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Infra\obj\Debug\net6.0\Infra.pdb
 C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Infra\obj\Debug\net6.0\ref\Infra.dll
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Infra\bin\Debug\net6.0\Domain.dll
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Infra\bin\Debug\net6.0\Domain.pdb
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Infra\obj\Debug\net6.0\Infra.csproj.CopyComplete

@@ -1,4 +1,6 @@
-﻿namespace Domain.Entidades
+﻿using Domain.ValueObjects;
+
+namespace Domain.Entidades
 {
     public class PrevisaoMeteorologica : Entity
     {
@@ -9,15 +11,15 @@
             Temperatura = temperatura;
             Umidade = umidade;
             VelocidadeVento = velocidadeVento;
-
             Localizacao = localizacao ?? throw new ArgumentNullException(nameof(localizacao));
+            Ativa = true;
         }
 
         public DateTime DataHora { get; set; }
         public double Temperatura { get; set; }
         public double Umidade { get; set; }
         public double VelocidadeVento { get; set; }
-        // Outras propriedades relevantes para a previsão meteorológica
         public Localizacao Localizacao { get; set; }
+        public bool Ativa { get; set; }
     }
 }
