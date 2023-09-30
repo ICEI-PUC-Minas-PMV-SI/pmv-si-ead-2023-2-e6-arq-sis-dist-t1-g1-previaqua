@@ -198,8 +198,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 ### Análise da Situação Atual
 
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
-
 Atualmente existem inúmeros serviços meteorológicos disponíveis para consulta, em televisão, rádio, jornais e é possível consultar o clima em tempo real através de dispositivos eletrônicos móveis para saber detalhess do clima como um todo, mostrando além da previsão do tempo detalhes como, precipitação, índice UV, vento, sensação térmica, visibilidade, umidade, entre outros. Contudo, mesmo com todas essas informações em mãos as enchentes continuam causando desastrastes como pruízos de bens, destruindo infraestrutura e até mortes.
 
 O projeto tem o intuito de mudar esse panorama alertando aos usuários sobre a possibilidade de enchente de acordo com o cálculo de acordo com a probabilidade de chuva no local somado com o volume de chuva esperado na área, caso esse volume ultrapasse o de uma chuva comum, é emitido um alerta no software do usuário informando-o caso esteja em área de risco.
