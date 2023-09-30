@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "moVgFo3nfjvp8S7WGFTSgdv2fqg9Ez9ULzVvUbo+yLo02sHDvXYfBEfZ4B6UOKuAzdaPkpViTBEz9iOcZNpjAQ==",
+  "dgSpecHash": "4H8T5gVf7DHMUH5M3BCP5snRfPfXj0bkqPd1+rVPi4uckeIgJq3ff3Wo4CSUqJ9L6JJFw1koCZfx2h91jR9RMw==",
   "success": true,
   "projectFilePath": "C:\\www\\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\\Projeto\\PreviaAqua\\Infra\\Infra.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\amandaCol\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
