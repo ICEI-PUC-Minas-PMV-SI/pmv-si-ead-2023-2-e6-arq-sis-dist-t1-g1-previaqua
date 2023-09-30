@@ -206,14 +206,7 @@ Com isso, conseguimos previnir que desastres maiores ocorram, salvando negócios
 
 # Indicadores de Desempenho
 
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
-
-- **Precisão das Previsões:** A precisão das previsões meteorológicas será avaliada comparando as previsões do aplicativo com os dados reais. Buscaremos uma alta taxa de precisão para ganhar a confiança dos usuários.
+- **Precisão das Previsões:** A precisão das previsões meteorológicas será avaliada comparando as previsões do aplicativo com os dados reais. Buscaremos uma taxa de precisão compatível com os dados fornecidos pela API de previsões meteorológicas.
 - **Tempo de Alerta de Inundações:** Mediremos o tempo que leva para o aplicativo emitir alertas sobre condições propícias a inundações após recebermos informações relevantes. Nosso objetivo é fornecer alertas o mais cedo possível.
 - **Taxa de Adoção:** Acompanharemos quantos usuários estão adotando o aplicativo em relação à base de usuários total. Uma taxa crescente de adoção indica que estamos atendendo às necessidades dos usuários.
 - **Avaliações e Feedback dos Usuários:** Monitoraremos as avaliações e o feedback dos usuários por meio das lojas de aplicativos e canais de suporte. Isso nos ajudará a identificar áreas de melhoria e reconhecer recursos bem-sucedidos.
