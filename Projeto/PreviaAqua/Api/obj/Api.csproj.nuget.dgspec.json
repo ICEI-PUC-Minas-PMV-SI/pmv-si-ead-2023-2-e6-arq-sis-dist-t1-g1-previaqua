@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\www\\PreviaAqua\\Api\\Api.csproj": {}
+    "C:\\www\\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\\Projeto\\PreviaAqua\\Api\\Api.csproj": {}
   },
   "projects": {
-    "C:\\www\\PreviaAqua\\Api\\Api.csproj": {
+    "C:\\www\\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\\Projeto\\PreviaAqua\\Api\\Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\www\\PreviaAqua\\Api\\Api.csproj",
+        "projectUniqueName": "C:\\www\\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\\Projeto\\PreviaAqua\\Api\\Api.csproj",
         "projectName": "Api",
-        "projectPath": "C:\\www\\PreviaAqua\\Api\\Api.csproj",
+        "projectPath": "C:\\www\\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\\Projeto\\PreviaAqua\\Api\\Api.csproj",
         "packagesPath": "C:\\Users\\amandaCol\\.nuget\\packages\\",
-        "outputPath": "C:\\www\\PreviaAqua\\Api\\obj\\",
+        "outputPath": "C:\\www\\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\\Projeto\\PreviaAqua\\Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -47,9 +47,47 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Google": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.14.0, )"
+              "version": "[1.17.0, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [

@@ -1,0 +1,5 @@
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\Infra.exe
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\Infra.dll
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\Infra.deps.json
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\Infra.runtimeconfig.json
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\Infra.pdb

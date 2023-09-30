@@ -1,0 +1,5 @@
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\bin\Release\net6.0\publish\Application.exe
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\bin\Release\net6.0\publish\Application.dll
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\bin\Release\net6.0\publish\Application.deps.json
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\bin\Release\net6.0\publish\Application.runtimeconfig.json
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\bin\Release\net6.0\publish\Application.pdb

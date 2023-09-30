@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\www\\PreviaAqua\\Infra\\Infra.csproj": {}
+    "C:\\www\\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\\Projeto\\PreviaAqua\\Infra\\Infra.csproj": {}
   },
   "projects": {
-    "C:\\www\\PreviaAqua\\Infra\\Infra.csproj": {
+    "C:\\www\\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\\Projeto\\PreviaAqua\\Infra\\Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\www\\PreviaAqua\\Infra\\Infra.csproj",
+        "projectUniqueName": "C:\\www\\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\\Projeto\\PreviaAqua\\Infra\\Infra.csproj",
         "projectName": "Infra",
-        "projectPath": "C:\\www\\PreviaAqua\\Infra\\Infra.csproj",
+        "projectPath": "C:\\www\\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\\Projeto\\PreviaAqua\\Infra\\Infra.csproj",
         "packagesPath": "C:\\Users\\amandaCol\\.nuget\\packages\\",
-        "outputPath": "C:\\www\\PreviaAqua\\Infra\\obj\\",
+        "outputPath": "C:\\www\\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\\Projeto\\PreviaAqua\\Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

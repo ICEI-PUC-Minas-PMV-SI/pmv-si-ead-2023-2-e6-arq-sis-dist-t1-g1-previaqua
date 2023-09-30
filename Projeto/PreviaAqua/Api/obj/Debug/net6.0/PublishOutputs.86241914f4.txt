@@ -1,0 +1,7 @@
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\Api.exe
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\appsettings.Development.json
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\appsettings.json
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\Api.dll
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\Api.deps.json
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\Api.runtimeconfig.json
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\ProjetoCompilado\Api.pdb

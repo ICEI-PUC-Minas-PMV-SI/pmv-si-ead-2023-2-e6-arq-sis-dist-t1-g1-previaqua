@@ -13,3 +13,15 @@ C:\www\PreviaAqua\Application\obj\Debug\net6.0\refint\Application.dll
 C:\www\PreviaAqua\Application\obj\Debug\net6.0\Application.pdb
 C:\www\PreviaAqua\Application\obj\Debug\net6.0\Application.genruntimeconfig.cache
 C:\www\PreviaAqua\Application\obj\Debug\net6.0\ref\Application.dll
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\bin\Debug\net6.0\Application.deps.json
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\bin\Debug\net6.0\Application.dll
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\bin\Debug\net6.0\Application.pdb
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\obj\Debug\net6.0\Application.csproj.AssemblyReference.cache
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\obj\Debug\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\obj\Debug\net6.0\Application.AssemblyInfoInputs.cache
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\obj\Debug\net6.0\Application.AssemblyInfo.cs
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\obj\Debug\net6.0\Application.csproj.CoreCompileInputs.cache
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\obj\Debug\net6.0\Application.dll
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\obj\Debug\net6.0\refint\Application.dll
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\obj\Debug\net6.0\Application.pdb
+C:\www\pmv-si-ead-2023-2-e6-arq-sis-dist-t1-g1-previaqua\Projeto\PreviaAqua\Application\obj\Debug\net6.0\ref\Application.dll
