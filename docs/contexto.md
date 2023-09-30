@@ -4,22 +4,25 @@ Este projeto aborda a carência de previsões meteorológicas precisas e alertas
 
 ## Problema
 
-A falta de previsões meteorológicas e alertas de inundações precisos e antecipados pode levar a danos significativos em comunidades propensas a inundações. As comunidades urbanas em regiões de risco são as mais afetadas, como, por exemplo, as comunidades próximas a rios, sistemas de esgoto com drenagem inadequada, chuvas intensas ou encostas. As inundações representam uma ameaça importante às vidas, propriedades e infraestruturas, podendo levar a perdas econômicas e sociais consideráveis.
+A falta de previsões meteorológicas e alertas de inundações precisos e antecipados pode resultar em danos significativos em comunidades propensas a inundações (Projeto Elos, 2021). Comunidades urbanas localizadas em áreas de risco, como aquelas próximas a rios, sistemas de esgoto com drenagem inadequada e regiões sujeitas a chuvas intensas ou encostas, são particularmente vulneráveis a esses desastres (Projeto Elos, 2021). As inundações representam uma ameaça crucial para vidas, propriedades e infraestruturas, acarretando potenciais perdas econômicas e sociais consideráveis (Projeto Elos, 2021).
 
-Problemas de comunicação entre os sistemas de alerta precoce e a população residente em áreas de risco podem levar a um agravamento da situação, aumentando o potencial de danos e atrasando a resposta eficaz diante de ameaças iminentes, comprometendo assim a segurança e o bem-estar de todos os envolvidos. 
+Além disso, problemas de comunicação entre os sistemas de alerta precoce e a população residente em áreas de risco podem agravar a situação, aumentando o potencial de danos e retardando a resposta eficaz diante de ameaças iminentes (Projeto Elos, 2021). Essa falta de comunicação efetiva compromete a segurança e o bem-estar de todos os envolvidos (Projeto Elos, 2021).
 
 ## Objetivos
 
-- **Fornecer Previsões Meteorológicas:** Nosso aplicativo visa oferecer previsões meteorológicas confiáveis e precisas para os usuários, permitindo que eles estejam preparados para condições climáticas adversas.
-- **Alertar sobre Inundações Potenciais:** O aplicativo visa fornecer alertas em tempo real sobre condições climáticas que possam levar a inundações, ajudando as comunidades a tomarem medidas preventivas e de segurança.
-- **Facilitar o Acesso à Informação:** Nosso objetivo é tornar as informações meteorológicas facilmente acessíveis para usuários de todas as faixas etárias e níveis de familiaridade com tecnologia.
-- **Personalização das Preferências:** Pretendemos permitir que os usuários personalizem suas configurações de notificação e visualizem informações meteorológicas relevantes com base em suas preferências individuais.
+**Objetivo Geral**: Facilitar o Acesso à Informação Meteorológica
+
+**Objetivos Específicos**:
+
+1. **Disponibilizar Previsões Meteorológicas**: Nosso aplicativo visa disponibilizar previsões meteorológicas provenientes de fontes confiáveis, permitindo que os usuários estejam preparados para condições climáticas adversas. Destacamos que as previsões são baseadas em dados de fontes externas (INMET), e a responsabilidade pela confiabilidade e precisão dessas informações recai sobre essas fontes.
+2. **Alertar sobre Inundações Potenciais**: O aplicativo visa fornecer alertas em tempo real sobre condições climáticas que possam levar a inundações, com base em informações obtidas de fontes confiáveis como o INMET. Isso ajudará as comunidades a tomar medidas preventivas e de segurança, com a ressalva de que a responsabilidade pelas informações de alerta reside nas fontes utilizadas.
+3. **Personalização das Preferências**: Pretendemos permitir que os usuários personalizem suas configurações de notificação e visualizem informações meteorológicas relevantes com base em suas preferências individuais, utilizando as informações obtidas de fontes externas como base para essa personalização.
 
 ## Justificativa
 
 A justificativa para o desenvolvimento deste projeto reside na necessidade crucial de enfrentar os danos crescentes causados por inundações e eventos climáticos extremos. A falta de previsões e alertas precisos coloca vidas, propriedades e economias em risco.
 
-No início de 2022, o Brasil enfrentou condições secas em várias regiões, mas eventos significativos de inundações impactaram o país. O Rio de Janeiro sofreu com enchentes mortais em fevereiro, causando 232 óbitos. Esses eventos foram registrados no relatório "Weather, Climate and Catastrophe Insight" de 2023, produzido pela empresa Aon, destacando a necessidade de conscientização diante das mudanças climáticas.
+No início de 2022, o Brasil enfrentou condições secas em várias regiões, mas eventos significativos de inundações impactaram o país. O Rio de Janeiro sofreu com enchentes mortais em fevereiro, causando 232 óbitos. Esses eventos foram registrados no relatório "Weather, Climate and Catastrophe Insight" de 2023, produzido pela empresa Aon (AON, 2023), destacando a necessidade de conscientização diante das mudanças climáticas.
 
 O projeto busca fornecer informações oportunas e relevantes para comunidades em áreas de risco, capacitando-as a se prepararem e responderem de maneira eficaz. Além disso, a natureza potencialmente replicável do projeto o transforma em uma iniciativa de grande valor para impulsionar a resiliência climática.
 
@@ -37,7 +40,6 @@ O público-alvo dessa aplicação é diversificado, abrangendo diferentes perfis
 Ao atender a esses diversos perfis de usuários, nosso objetivo é fornecer informações relevantes, personalizadas e de fácil acesso, promovendo a segurança, a conscientização e a preparação diante das ameaças climáticas.
 
 # Especificações do Projeto
-
 
 As enchentes constituem um desafio relevante em cidades brasileiras, acarretando consequências abrangentes para a população e a infraestrutura urbana. Cerca de 9,5 milhões de brasileiros moram em áreas de risco sujeitas a deslizamentos de terra, enchentes e outros desastres climáticos. A estimativa é do Centro Nacional de Monitoramento e Alertas de Desastres Naturais (Cemaden), vinculado ao Ministério de Ciência, Tecnologia e Inovações.
 
@@ -347,3 +349,7 @@ Para hospedagem de back-end, vamos utilizar o Amazon EC2 (Elastic Compute Cloud)
 **Base de dados:**
 Utilizaremos o Amazon RDS (Relational Database Service) para hospedar seu banco de dados MySQL, que oferece fácil gerenciamento de bancos de dados relacionais.
 
+**Referências Bibliográficas:**
+Projeto Elos. (2021). Diagnóstico Municipal em Proteção e Defesa Civil: Volume Nacional e Volumes Regionais. Ministério do Desenvolvimento Regional, Programa das Nações Unidas para o Desenvolvimento, Centro Nacional de Monitoramento e Alertas de Desastres Naturais.
+
+Aon. (2023). Weather, Climate and Catastrophe Insight. Disponível em: https://www.aon.com/weather-climate-catastrophe/index.aspx Acesso em: 20/09/2023
