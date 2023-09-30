@@ -149,23 +149,89 @@ A segurança é uma consideração crítica para garantir a integridade e confia
 
 ## Implantação
 
-[Instruções para implantar a aplicação distribuída em um ambiente de produção.]
+## 1- Preparação do Aplicativo
 
-1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+Primeiro, garantiremos que nosso aplicativo esteja completamente desenvolvido e funcione localmente. Criaremos um arquivo Dockerfile no diretório do projeto que incluirá todas as instruções necessárias para empacotar o aplicativo em um contêiner Docker.
+
+## 2- Construção da Imagem Docker
+
+Usaremos o Docker localmente para construir nossa imagem Docker a partir do Dockerfile. Certificaremos de que a imagem inclua todas as dependências necessárias para nosso aplicativo. Isso é crucial para garantir que nosso aplicativo funcione consistentemente em um ambiente de contêiner.
+
+## 3- Implantação no Amazon ECR (Elastic Container Registry)
+
+Vamos criar um repositório no Amazon ECR para armazenar nossa imagem Docker. Em seguida, usaremos a AWS CLI para autenticar e fazer o push da imagem Docker para esse repositório. Isso nos permitirá centralizar o armazenamento de nossas imagens Docker e garantir que elas estejam disponíveis para implantação no ECS.
+
+## 4- Configuração do Cluster ECS
+
+Criaremos um cluster no Amazon ECS onde implantaremos e executaremos nosso aplicativo. Também definiremos uma definição de tarefa ECS que descreverá como nosso aplicativo será executado em contêineres. Isso incluirá detalhes como a imagem Docker a ser usada e as portas de exposição.
+
+## 5- Criando uma Instância EC2
+
+Para executar nossos contêineres, criaremos uma instância EC2 na AWS e a configuraremos com o agente ECS. Garantiremos que essa instância EC2 faça parte do cluster ECS que criamos anteriormente. Essa instância será responsável por executar nossos contêineres conforme necessário.
+
+## 6- Criando um Serviço ECS
+
+Criaremos um serviço ECS que usará a definição de tarefa que criamos. Isso garantirá que nosso aplicativo seja executado de forma escalável e gerenciada automaticamente pelo ECS. Podemos especificar o número desejado de tarefas e as políticas de escalabilidade conforme necessário.
+
+## 7- Acessando o Aplicativo
+
+Após uma implantação bem-sucedida no ECS, poderemos acessar nosso aplicativo usando o endereço IP público ou DNS da instância EC2 na qual nossos contêineres estão sendo executados. Certificaremos de que a infraestrutura de rede esteja configurada corretamente para permitir o acesso ao nosso aplicativo.
 
 ## Testes
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
+## 1 - Preparação dos Casos de Teste
 
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+1.1. Identificaremos e documentaremos todos os requisitos funcionais e não funcionais da aplicação que devem ser testados.
+
+1.2. Com base nos requisitos identificados, criaremos casos de teste que cobrirão todos os cenários possíveis, incluindo casos de sucesso e casos de erro.
+
+## 2 - Implementação de Testes Unitários
+
+2.1. Para cada unidade de código (funções, classes, módulos), implementaremos testes unitários usando uma estrutura de teste apropriada para C#, como o MSTest ou NUnit.
+
+2.2. Certificaremos de que os testes unitários validarão a funcionalidade correta das unidades individuais de código em C#.
+
+## 3 - Realização de Testes de Integração
+
+3.1. Configuraremos e executaremos testes de integração para verificar se os diferentes componentes da aplicação interagirão corretamente.
+
+3.2. Certificaremos de que os testes de integração cubram a comunicação entre os contêineres Docker, o funcionamento correto do ECS e a integração com outros serviços da AWS, como por exemplo AWS CodePiPeline e seus serviços de esteira CI/CD
+
+## 4 - Execução de Testes de Carga
+
+4.1. Criaremos cenários de teste de carga que simularão diferentes níveis de tráfego, desde níveis normais até picos de tráfego.
+
+4.2. Avaliaremos a capacidade de escalabilidade do ECS durante os testes de carga.
+
+## 5 - Utilização de Ferramentas de Teste Adequadas
+
+5.1. Escolheremos as ferramentas de teste apropriadas para cada tipo de teste (por exemplo, frameworks de teste para testes unitários e ferramentas de teste de carga para testes de carga).
+
+5.2. Configuraremos e automatizaremos os testes sempre que possível para garantir que eles possam ser executados de forma consistente e repetível.
+
+## 6 - Execução dos Testes
+
+6.1. Antes de iniciarmos os testes, certificaremos de que o ambiente de implantação estará configurado e pronto para receber os contêineres Docker. ( VPC, ACL, SUBNET, ROUTE TABLE E SECURITY GROUPS )
+
+6.2. Executaremos os testes em um ambiente controlado, como um ambiente de teste AWS separado ( Região diferente da implantação oficial ) , para evitar impactos no ambiente de produção.
+
+## 7 - Análise dos Resultados dos Testes
+
+7.1. Analisaremos os resultados dos testes para identificar quaisquer falhas ou problemas encontrados.
+
+7.2. Documentaremos todas as falhas, incluindo detalhes sobre como reproduzi-las e as condições em que ocorreram.
+
+## 8 - Correção e Reteste
+
+8.1. Corrigiremos quaisquer problemas identificados nos testes e verificaremos se as correções foram bem-sucedidas.
+
+8.2. Realizaremos testes adicionais para confirmar que as correções não causaram regressões em outras partes da aplicação.
+
+## 9 - Documentação e Relatório
+
+9.1. Documentaremos os resultados dos testes, incluindo casos de teste executados, resultados de testes, problemas encontrados e ações corretivas tomadas.
+
+9.2. Prepararemos um relatório de teste que incluirá informações sobre a cobertura de teste, desempenho e conformidade com os requisitos.
 
 # Referências
 
