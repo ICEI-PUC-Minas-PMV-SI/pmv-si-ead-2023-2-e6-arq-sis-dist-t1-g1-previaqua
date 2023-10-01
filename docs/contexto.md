@@ -219,21 +219,25 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o receba alerta em tempo real quando em área de risco | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês  | MÉDIA |
+|RF-001| Permitir que os usuários recebam alertas em tempo real quando em área de risco | ALTA | 
+|RF-002| Permitir a criação de contas dos usuários  | ALTA |
+|RF-003| Permitir a atualização e alteração dos dados cadastrais dos usuários | MÉDIA |
+|RF-004| Permitir a consulta de dados climáticos | ALTA |
+|RF-005| Emitir um relatório de tarefas no mês  | MÉDIA |
+
 
 ### Requisitos não Funcionais
 
 | ID     | Descrição do Requisito                                        | Prioridade |
 |--------|---------------------------------------------------------------|------------|
-| RNF-003 | A precisão das previsões meteorológicas deve ser >90%         | Alta       |
-| RNF-004 | Tempo de atualização das informações meteorológicas < 15 min  | Média      |
-| RNF-005 | Aplicação leve para execução eficiente em diversos dispositivos | Alta       |
-| RNF-006 | Compatibilidade com sistemas operacionais Android e iOS       | Alta       |
-| RNF-007 | Design de interface do usuário conforme melhores práticas    | Média      |
-| RNF-008 | Lidar com picos de tráfego mantendo estabilidade e velocidade | Alta       |
-| RNF-009 | Armazenamento seguro de dados dos usuários                    | Alta       |
-| RNF-010 | Conformidade com padrões de acessibilidade                     | Alta       |
+| RNF-001 | A precisão das previsões meteorológicas deve ser >90%         | Alta       |
+| RNF-002 | Tempo de atualização das informações meteorológicas < 15 min  | Média      |
+| RNF-003 | Aplicação leve para execução eficiente em diversos dispositivos | Alta       |
+| RNF-004 | Compatibilidade com sistemas operacionais Android e iOS       | Alta       |
+| RNF-005 | Design de interface do usuário conforme melhores práticas    | Média      |
+| RNF-006 | Lidar com picos de tráfego mantendo estabilidade e velocidade | Alta       |
+| RNF-007 | Armazenamento seguro de dados dos usuários                    | Alta       |
+| RNF-008 | Conformidade com padrões de acessibilidade                     | Alta       |
 
 ## Restrições
 
