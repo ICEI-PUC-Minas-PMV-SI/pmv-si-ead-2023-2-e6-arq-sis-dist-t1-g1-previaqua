@@ -345,6 +345,10 @@ Para hospedagem de back-end, vamos utilizar o Amazon EC2 (Elastic Compute Cloud)
 Utilizaremos o Amazon RDS (Relational Database Service) para hospedar seu banco de dados MySQL, que oferece fácil gerenciamento de bancos de dados relacionais.
 
 ## Referências Bibliográficas:
-Projeto Elos. (2021). Diagnóstico Municipal em Proteção e Defesa Civil: Volume Nacional e Volumes Regionais. Ministério do Desenvolvimento Regional, Programa das Nações Unidas para o Desenvolvimento, Centro Nacional de Monitoramento e Alertas de Desastres Naturais.
-
-Aon. (2023). Weather, Climate and Catastrophe Insight. Disponível em: https://www.aon.com/weather-climate-catastrophe/index.aspx Acesso em: 20/09/2023
+- Projeto Elos. (2021). Diagnóstico Municipal em Proteção e Defesa Civil: Volume Nacional e Volumes Regionais. Ministério do Desenvolvimento Regional, Programa das Nações Unidas para o Desenvolvimento, Centro Nacional de Monitoramento e Alertas de Desastres Naturais.
+- Aon. (2023). Weather, Climate and Catastrophe Insight. Disponível em: https://www.aon.com/weather-climate-catastrophe/index.aspx Acesso em: 20/09/2023
+- MADEN - Centro Nacional de Monitoramento e Alertas de Desastres Naturais.
+- PÁDUA, M. T. J. Desastres Naturais no Brasil: conceitos, tipologia e estudos de caso. São Paulo: Oficina de Textos, 2015.
+- DIAS, M. A. F. S. Enchentes Urbanas no Brasil. São Paulo: Oficina de Textos, 2012.
+- IPCC - Painel Intergovernamental sobre Mudanças Climáticas.
+- INMET - Instituto Nacional de Meteorologia.
