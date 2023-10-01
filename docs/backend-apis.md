@@ -54,35 +54,6 @@ A aplicação PreviAqua tem uma estrutura de dados que envolve principalmente in
 
 ## API Endpoints
 
-**<<< QUANDO TODOS TERMINAREM, APAGAR O EXEMPLO DAQUI >>>**
-[Liste os principais endpoints da API, incluindo as operações disponíveis, os parâmetros esperados e as respostas retornadas.]
-
-### Endpoint 1
-- Método: GET
-- URL: /endpoint1
-- Parâmetros:
-  - param1: [descrição]
-- Resposta:
-  - Sucesso (200 OK)
-    ```
-    {
-      "message": "Success",
-      "data": {
-        ...
-      }
-    }
-    ```
-  - Erro (4XX, 5XX)
-    ```
-    {
-      "message": "Error",
-      "error": {
-        ...
-      }
-    }
-    ```
-**<<< ATÉ AQUI >>>**
-
 ### API Consulta de Dados Climáticos
 - Método: GET
 - URL: /api/Previsao/{cidade}
@@ -125,16 +96,19 @@ A aplicação PreviAqua tem uma estrutura de dados que envolve principalmente in
     }
     ```
   - Erro (404)
-    ```{
-  "message": "Cidade não encontrada, verifique os dados inseridos na requisição.",
-  "error": "A cidade solicitada pelo usuário pode não estar no formato adequado (Ex: Ao invés de Rio de Janeiro: rio-de-janeiro, estar riodejaneiro)"
-  }
+    ```json
+    {
+      "message": "Cidade não encontrada, verifique os dados inseridos na requisição.",
+      "error": "A cidade solicitada pelo usuário pode não estar no formato adequado (Ex: Ao invés de Rio de Janeiro: rio-de-janeiro, estar riodejaneiro)"
+    }
+    ```
   - Erro (500)
-    ```{
+  ```json
+  {
   "message": "Erro interno do servidor: Nenhum resultado encontrado.",
   "error": "Caso aconteça, durante o processamento, algum erro não relacionado ao usuário."
   }
-    ```
+  ```
 
 ## Considerações de Segurança
 
@@ -235,6 +209,7 @@ Após uma implantação bem-sucedida no ECS, poderemos acessar nosso aplicativo 
 
 # Referências
 
-Microsoft. Documentação oficial do .NET Core. Disponível em: https://docs.microsoft.com/pt-br/dotnet/. Acesso em: 29/09/2023.
-OWASP. OWASP Top Ten Project. Disponível em: https://owasp.org/www-project-top-ten/. Acesso em: 29/09/2023.
-Amazon Web Services (AWS). Disponível em: https://aws.amazon.com/. Acesso em: 29/09/2023.
+- Microsoft. Documentação oficial do .NET Core. Disponível em: https://docs.microsoft.com/pt-br/dotnet/. Acesso em: 29/09/2023.
+- OWASP. OWASP Top Ten Project. Disponível em: https://owasp.org/www-project-top-ten/. Acesso em: 29/09/2023.
+- AMAZON WEB SERVICES. Amazon Elastic Container Service (ECS) Documentation. Disponível em: https://docs.aws.amazon.com/ecs/. Acesso em: 28/09/2023
+- Mozilla Developer Network (MDN). HTTP - Visão geral. Disponível em: https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Overview#apis_baseadas_no_http. Acesso em: 28/09/2023
