@@ -197,8 +197,9 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 ## Modelagem do Processo de Negócio 
 
 ### Análise da Situação Atual
+Atualmente, existem inúmeros serviços meteorológicos disponíveis para consulta, seja na televisão, rádio, jornais ou por meio de dispositivos eletrônicos móveis, que fornecem detalhes abrangentes sobre o clima. Esses serviços incluem previsões do tempo, mas também informações detalhadas, como precipitação, índice UV, vento, sensação térmica, visibilidade, umidade, entre outros. No entanto, mesmo com todas essas informações acessíveis, as enchentes continuam causando danos significativos, incluindo prejuízos a bens, destruição de infraestrutura e, lamentavelmente, perdas de vidas.
 
-Atualmente existem inúmeros serviços meteorológicos disponíveis para consulta, em televisão, rádio, jornais e é possível consultar o clima em tempo real através de dispositivos eletrônicos móveis para saber detalhess do clima como um todo, mostrando além da previsão do tempo detalhes como, precipitação, índice UV, vento, sensação térmica, visibilidade, umidade, entre outros. Contudo, mesmo com todas essas informações em mãos as enchentes continuam causando desastrastes como pruízos de bens, destruindo infraestrutura e até mortes.
+É importante ressaltar que as informações meteorológicas podem ser utilizadas por instituições e autoridades para tomar medidas preventivas e mitigar os efeitos dos eventos climáticos, como enchentes. Portanto, a questão não está na falta de informação, mas sim na eficácia das ações tomadas com base nessas informações, bem como em estratégias de planejamento urbano e gestão de recursos hídricos.
 
 O projeto tem o intuito de mudar esse panorama alertando aos usuários sobre a possibilidade de enchente de acordo com o cálculo de acordo com a probabilidade de chuva no local somado com o volume de chuva esperado na área, caso esse volume ultrapasse o de uma chuva comum, é emitido um alerta no software do usuário informando-o caso esteja em área de risco.
 
