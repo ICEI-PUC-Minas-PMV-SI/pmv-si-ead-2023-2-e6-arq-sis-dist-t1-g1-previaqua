@@ -8,12 +8,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <Folder Include="Configurations\" />
 	  <Folder Include="Migrations\" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <ProjectReference Include="..\Domain\Domain.csproj" />
+	  <PackageReference Include="Microsoft.AspNet.Identity.EntityFramework" Version="2.0.0" />
+	  <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.11" />
 	</ItemGroup>
 
 </Project>

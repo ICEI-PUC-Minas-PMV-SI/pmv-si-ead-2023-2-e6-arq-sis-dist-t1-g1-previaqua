@@ -21,18 +21,16 @@ namespace Infra.Repositories
                 new PrevisaoMeteorologica
                 (
                     DateTime.Now.AddDays(1),
-                    25.5,
-                    60.0,
-                    12,
-                    new Localizacao("Cidade", 12.1111, -77.7722)
+                    new Localizacao("Cidade", 12.1111, -77.7722,"Belo Horizonte", "Minas Gerais", "Municipio", "Bairro"),
+                    new DadosClimaticos(1,1,1,1),
+                    PeriodoPrevisao.Criar(DateTime.Now, DateTime.Now.AddDays(2))
                 ),
                 new PrevisaoMeteorologica
                 (
-                    DateTime.Now.AddDays(2),
-                    27.0,
-                    55.5,
-                    10,
-                    new Localizacao("Cidade", 11.1111, -77.7777)
+                     DateTime.Now.AddDays(1),
+                    new Localizacao("Teste", 12.1111, -77.7722,"Belo Horizonte 1", "Minas Gerais 1", "Municipio 1", "Bairro2"),
+                    new DadosClimaticos(12,21,12,1),
+                    PeriodoPrevisao.Criar(DateTime.Now, DateTime.Now.AddDays(2))
                 )
            
             };
@@ -56,8 +54,7 @@ namespace Infra.Repositories
             if (previsaoExistente != null)
             {
                 previsaoExistente.DataHora = previsao.DataHora;
-                previsaoExistente.Temperatura = previsao.Temperatura;
-                previsaoExistente.Umidade = previsao.Umidade;
+               
             }
         }
 

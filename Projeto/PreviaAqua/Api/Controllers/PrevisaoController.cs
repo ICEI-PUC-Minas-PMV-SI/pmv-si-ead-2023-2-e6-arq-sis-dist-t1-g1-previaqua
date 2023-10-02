@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 
 namespace Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize] 
     public class PrevisaoController : ControllerBase
     {
         private readonly HttpClient _httpClient;
@@ -23,6 +25,7 @@ namespace Api.Controllers
         /// <param name="cidade">Nome da cidade</param>
         /// <returns>A API retorna os seguintes valores</returns>
         [HttpGet("{cidade}")]
+        [Authorize]
         public async Task<IActionResult> GetPrevisao(string cidade)
         {
             try

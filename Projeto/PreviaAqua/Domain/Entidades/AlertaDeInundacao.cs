@@ -4,7 +4,7 @@ namespace Domain.Entidades
 {
     public class AlertaDeInundacao : Entity
     {
-        public AlertaDeInundacao(DateTime dataHora, string mensagem, Localizacao localizacao, NivelDeAgua nivelDeAgua = null)
+        public AlertaDeInundacao(DateTime dataHora, string mensagem, Localizacao localizacao, NivelDeAgua nivelDeAgua)
         {
             DataHora = dataHora;
             Mensagem = mensagem ?? throw new ArgumentNullException(nameof(mensagem));
