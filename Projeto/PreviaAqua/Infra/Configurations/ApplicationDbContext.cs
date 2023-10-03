@@ -1,13 +1,15 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Domain.Entidades;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
-using Domain.Entidades;
-using Microsoft.AspNet.Identity.EntityFramework;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace Infra.Configurations
 {
-    public class ApplicationDbContext : IdentityDbContext<IdentityUser>
+    public sealed class ApplicationDbContext : IdentityDbContext<ApplicationUser>
+
     {
-        public ApplicationDbContext()
+        public ApplicationDbContext(DbContextOptions options) 
         {
         }
 
@@ -23,5 +25,6 @@ namespace Infra.Configurations
 
         // Outros DbSet e configurações, se necessário
     }
+
 
 }
