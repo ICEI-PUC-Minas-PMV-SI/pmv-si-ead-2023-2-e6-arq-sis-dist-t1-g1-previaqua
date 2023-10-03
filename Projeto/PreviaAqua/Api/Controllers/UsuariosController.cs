@@ -1,11 +1,13 @@
 ﻿using Infra.Configurations;
 using Infra.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Api.Controllers
 {
     [Route("api/usuario")]
     [ApiController]
+    [Authorize]
     public class UsuariosController : Controller
     {
         private readonly IUsuarioRepository _usuarioRepository;
@@ -15,6 +17,7 @@ namespace Api.Controllers
             _usuarioRepository = usuarioRepository;
         }
 
+        [Authorize]
         [HttpPost("criarUsuario")]
         public async Task<IActionResult> CriarUsuario(ApplicationUser applicationUser, string senha)
         {

@@ -8,10 +8,13 @@ namespace Domain.Entidades
 {
     public class Entity
     {
-        public Entity()
+        
+
+        public Entity(Guid id)
         {
+            Id = id;
         }
 
-        public Guid Id { get; set; }
+        public Guid Id { get; init; }
     }
 }

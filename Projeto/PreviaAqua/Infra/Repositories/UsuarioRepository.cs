@@ -41,6 +41,28 @@ namespace Infra.Repositories
             return await _signInManager.PasswordSignInAsync(email, senha, isPersistent: false, lockoutOnFailure: false);
         }
 
-        // Você pode adicionar mais métodos conforme necessário para seu caso de uso
+        private string GenerateJwtToken(ApplicationUser user)
+        {
+            var claims = new[]
+            {
+            new Claim(ClaimTypes.NameIdentifier, user.Id),
+            new Claim(ClaimTypes.Name, user.UserName)
+            // Adicione outras claims personalizadas, se necessário
+        };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtKey"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["JwtIssuer"],
+                audience: _configuration["JwtIssuer"],
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(30), // Defina o tempo de expiração do token
+                signingCredentials: creds
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
     }
 }

@@ -4,8 +4,8 @@ namespace Domain.Entidades
 {
     public class PrevisaoMeteorologica : Entity
     {
-        public PrevisaoMeteorologica(DateTime dataHora, Localizacao localizacao,
-            DadosClimaticos dadosClimaticos, PeriodoPrevisao periodoPrevisao)
+        public PrevisaoMeteorologica(Guid id,DateTime dataHora, Localizacao localizacao,
+            DadosClimaticos dadosClimaticos, PeriodoPrevisao periodoPrevisao) : base(id)
         {
             DataHora = dataHora;
             Localizacao = localizacao ?? throw new ArgumentNullException(nameof(localizacao));

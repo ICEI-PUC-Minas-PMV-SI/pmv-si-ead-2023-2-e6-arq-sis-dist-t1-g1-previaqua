@@ -1,8 +1,13 @@
 ﻿using Infra.Configurations;
+using Infra.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Text;
 
 namespace Api.Controllers
 {
@@ -10,32 +15,78 @@ namespace Api.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        //private readonly UserManager<ApplicationUser> _userManager;
-        //private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly IUsuarioRepository _usuarioRepository;
 
-        //public AuthController(
-        //    UserManager<ApplicationUser> userManager,
-        //    SignInManager<ApplicationUser> signInManager)
-        //{
-        //    _userManager = userManager;
-        //    _signInManager = signInManager;
-        //}
+  
+        private readonly IConfiguration _configuration;
 
-        [HttpPost("register")]
-        public async Task<IActionResult> Register([FromBody] RegisterModel model)
+        public AuthController(IUsuarioRepository usuarioRepository, IConfiguration configuration)
         {
-            // Implemente o registro de usuários aqui usando _userManager
-            // Gere e retorne um token JWT após o registro
-            return Ok();
+            _usuarioRepository = usuarioRepository;
+            _configuration = configuration;
         }
 
+        [AllowAnonymous]
+        [Authorize]
+        [HttpPost("criarUsuario")]
+        public async Task<IActionResult> CriarUsuario(ApplicationUser applicationUser, string senha)
+        {
+            if (ModelState.IsValid)
+            {
+                var novoUsuario = applicationUser;
+
+                var resultado = await _usuarioRepository.CriarUsuarioAsync(novoUsuario, senha); // Substitua pela senha desejada
+
+                if (!resultado.Succeeded)
+                    return BadRequest();
+                var token = GenerateJwtToken(resultado);
+                return Ok();
+
+            }
+            else 
+                return BadRequest();
+        }
+      
+        [AllowAnonymous]
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
-            // Implemente a lógica de login aqui usando _signInManager
-            // Gere e retorne um token JWT após o login bem-sucedido
-            return Ok();
+            var user = await _userManager.FindByEmailAsync(model.Email);
+
+            if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
+            {
+                // Usuário autenticado com sucesso, você pode gerar um token JWT aqui
+                var token = GenerateJwtToken(user);
+
+                return Ok(new { token });
+            }
+
+            return Unauthorized("Usuário ou senha inválidos");
         }
+
+        private string GenerateJwtToken(ApplicationUser user)
+        {
+            var claims = new[]
+            {
+            new Claim(ClaimTypes.NameIdentifier, user.Id),
+            new Claim(ClaimTypes.Name, user.UserName)
+            // Adicione outras claims personalizadas, se necessário
+        };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtKey"]));
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["JwtIssuer"],
+                audience: _configuration["JwtIssuer"],
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(30), // Defina o tempo de expiração do token
+                signingCredentials: creds
+            );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+    
 
         [HttpPost("GerarToken")]
         public async Task<IActionResult> GerarToken()
@@ -59,5 +110,4 @@ namespace Api.Controllers
             return Ok(token);
         }
     }
-
 }

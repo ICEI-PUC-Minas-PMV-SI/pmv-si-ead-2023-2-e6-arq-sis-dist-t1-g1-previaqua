@@ -9,8 +9,8 @@ namespace Domain.Entidades
 {
     public class AreaDeInundacaoPotencial : Entity
     {
-        public AreaDeInundacaoPotencial(string nome, List<Localizacao> limites, DadosClimaticos condicoesClimaticas,
-            NivelDeAgua nivelDeAgua)
+        public AreaDeInundacaoPotencial(Guid id ,string nome, List<Localizacao> limites, DadosClimaticos condicoesClimaticas,
+            NivelDeAgua nivelDeAgua) : base(id)
         {
             Nome = nome ?? throw new ArgumentNullException(nameof(nome));
             Limites = limites ?? throw new ArgumentNullException(nameof(limites));

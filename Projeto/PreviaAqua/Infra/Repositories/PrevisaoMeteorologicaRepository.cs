@@ -20,6 +20,7 @@ namespace Infra.Repositories
             {
                 new PrevisaoMeteorologica
                 (
+                    new Guid(),
                     DateTime.Now.AddDays(1),
                     new Localizacao("Cidade", 12.1111, -77.7722,"Belo Horizonte", "Minas Gerais", "Municipio", "Bairro"),
                     new DadosClimaticos(1,1,1,1),
@@ -27,6 +28,7 @@ namespace Infra.Repositories
                 ),
                 new PrevisaoMeteorologica
                 (
+                    new Guid(),
                      DateTime.Now.AddDays(1),
                     new Localizacao("Teste", 12.1111, -77.7722,"Belo Horizonte 1", "Minas Gerais 1", "Municipio 1", "Bairro2"),
                     new DadosClimaticos(12,21,12,1),
