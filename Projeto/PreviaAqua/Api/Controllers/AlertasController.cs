@@ -14,6 +14,7 @@ namespace Api.Controllers
 
         //Validacao direta pelo banco de dados
         [HttpGet]
+        [HttpGet("obterAlertasDeInundacoesPorArea")]
         [Authorize]
         public IActionResult ObterAlertasDeInundacoesPorArea(RequestObterAlertaDeInundacoesPorArea requestObterAlertaDeInundacoesPorArea)
         {
@@ -27,7 +28,7 @@ namespace Api.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("dispararAlertasDeChuva")]
         [Authorize]
         public IActionResult DispararAlertasDeChuva(RequestObterAlertaDeInundacoesPorArea requestObterAlertaDeInundacoesPorArea)
         {
@@ -42,7 +43,7 @@ namespace Api.Controllers
             }
         }
 
-        [HttpPost]
+        [HttpPost("dispararAlertasDeChuva")]
         [Authorize]
         public IActionResult DispararAlertasDeChuva()
         {
