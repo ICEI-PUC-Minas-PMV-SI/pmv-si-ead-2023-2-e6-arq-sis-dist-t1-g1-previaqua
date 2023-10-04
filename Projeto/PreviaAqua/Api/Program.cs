@@ -12,8 +12,9 @@ using System.Configuration;
 var builder = WebApplication.CreateBuilder(args);
 
 // Configuração do serviço de banco de dados
-var connectionString = "SuaStringDeConexão"; // Substitua pela sua string de conexão com o banco de dados
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)), ServiceLifetime.Transient);
+string connectionString = "Server=myServerAddress;Port=3306;User=myUsername;Password=myPassword;";
+//builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)), ServiceLifetime.Transient);
+builder.Services.AddDbContext<ApplicationDbContext>();
 
 // Configuração do ASP.NET Identity
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
@@ -52,7 +53,7 @@ builder.Services.AddScoped<SignInManager<ApplicationUser>>();
 builder.Services.AddScoped<RoleManager<IdentityRole>>();
 builder.Services.AddScoped<ApplicationUser>();
 builder.Services.AddScoped<JwtSettings>();
-builder.Services.AddScoped<UsuarioRepository>();
+builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
 
 // Configuração do Swagger/OpenAPI
 builder.Services.AddSwaggerGen(c =>

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using Domain.ValueObjects;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json.Linq;
 
@@ -26,38 +27,34 @@ namespace Api.Controllers
         /// <returns>A API retorna os seguintes valores</returns>
         [HttpGet("{cidade}")]
         [Authorize]
-        public async Task<IActionResult> GetPrevisao(string cidade)
+        public async Task<IActionResult> ObterPrevisao(string cidade)
         {
             try
             {
-                return Ok("Endpoint ok");
-                // Recebe o nome da cidade e remove os hifens caso cidade com nome composto
                 cidade = cidade.Replace("-", " ");
 
-                // Obtem o caminho do arquivo JSON na pasta Dados
-                string jsonFilePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Dados", "Estacoes.json");
-
-                // Carrega o arquivo JSON
+                string jsonFilePath = "Estacoes.json";
                 string jsonContent = System.IO.File.ReadAllText(jsonFilePath);
 
-                // Analisa o conteúdo JSON para encontrar o CD_WSI correspondente à cidade
                 JArray estacoesJson = JArray.Parse(jsonContent);
-                string cdWsi = null;
-
+                string? cdWsi = null;
+            
                 // Encontra a estação com DC_NOME igual ao nome inserido pelo usuário
                 var estacaoEncontrada = estacoesJson.FirstOrDefault(estacao =>
                 {
-                    string dcNome = (string)estacao["DC_NOME"];
+                    if (estacao == null)
+                        return false;
+                    string? dcNome = estacao["DC_NOME"]?.ToString();
+                    if (dcNome == null)
+                        return false;
                     return dcNome.Contains(cidade, StringComparison.OrdinalIgnoreCase);
                 });
 
                 if (estacaoEncontrada != null)
                 {
-                    // Obtém o valor do atributo CD_WSI
-                    string cdWsiCompleto = (string)estacaoEncontrada["CD_WSI"];
+                    string? cdWsiCompleto = estacaoEncontrada["CD_WSI"]?.ToString();
 
-                    // Verifica se o valor tem pelo menos 14 caracteres
-                    if (cdWsiCompleto.Length >= 14)
+                    if (cdWsiCompleto != null && cdWsiCompleto.Length >= 14)
                     {
                         // Extrai os caracteres do 8º ao 14º
                         cdWsi = cdWsiCompleto.Substring(7, 7);
@@ -92,66 +89,86 @@ namespace Api.Controllers
 
                     if (dados != null)
                     {
-                        // Acessando os valores recebidos
-                        string dcNome = (string)dados["DC_NOME"];
-                        string preIns = (string)dados["PRE_INS"];
-                        string temSen = (string)dados["TEM_SEN"];
-                        string vlLatitude = (string)dados["VL_LATITUDE"];
-                        string preMax = (string)dados["PRE_MAX"];
-                        string uf = (string)dados["UF"];
-                        string radGlo = (string)dados["RAD_GLO"];
-                        string ptoIns = (string)dados["PTO_INS"];
-                        string temMin = (string)dados["TEM_MIN"];
-                        string vlLongitude = (string)dados["VL_LONGITUDE"];
-                        string umdMin = (string)dados["UMD_MIN"];
-                        string ptoMax = (string)dados["PTO_MAX"];
-                        string venDir = (string)dados["VEN_DIR"];
-                        string dtMedicao = (string)dados["DT_MEDICAO"];
-                        string chuva = (string)dados["CHUVA"];
-                        string preMin = (string)dados["PRE_MIN"];
-                        string umdMax = (string)dados["UMD_MAX"];
-                        string venVel = (string)dados["VEN_VEL"];
-                        string ptoMin = (string)dados["PTO_MIN"];
-                        string temMax = (string)dados["TEM_MAX"];
-                        string tenBat = (string)dados["TEN_BAT"];
-                        string venRaj = (string)dados["VEN_RAJ"];
-                        string temCpu = (string)dados["TEM_CPU"];
-                        string temIns = (string)dados["TEM_INS"];
-                        string umdIns = (string)dados["UMD_INS"];
-                        string cdEstacao = (string)dados["CD_ESTACAO"];
-                        string hrMedicao = (string)dados["HR_MEDICAO"];
+                        var dcNome = dados["DC_NOME"]?.ToString();
+                        double preIns = 0;
+                        double.TryParse(dados["PRE_INS"]?.ToString(), out preIns);
 
-                        // Retorne os valores como um objeto JSON
-                        var valores = new
-                        {
-                            DC_NOME = dcNome,
-                            PRE_INS = preIns,
-                            TEM_SEN = temSen,
-                            VL_LATITUDE = vlLatitude,
-                            PRE_MAX = preMax,
-                            UF = uf,
-                            RAD_GLO = radGlo,
-                            PTO_INS = ptoIns,
-                            TEM_MIN = temMin,
-                            VL_LONGITUDE = vlLongitude,
-                            UMD_MIN = umdMin,
-                            PTO_MAX = ptoMax,
-                            VEN_DIR = venDir,
-                            DT_MEDICAO = dtMedicao,
-                            CHUVA = chuva,
-                            PRE_MIN = preMin,
-                            UMD_MAX = umdMax,
-                            VEN_VEL = venVel,
-                            PTO_MIN = ptoMin,
-                            TEM_MAX = temMax,
-                            TEN_BAT = tenBat,
-                            VEN_RAJ = venRaj,
-                            TEM_CPU = temCpu,
-                            TEM_INS = temIns,
-                            UMD_INS = umdIns,
-                            CD_ESTACAO = cdEstacao,
-                            HR_MEDICAO = hrMedicao
-                        };
+                        double temSen = 0;
+                        double.TryParse(dados["TEM_SEN"]?.ToString(), out temSen);
+
+                        double vlLatitude = 0;
+                        double.TryParse(dados["VL_LATITUDE"]?.ToString(), out vlLatitude);
+
+                        double preMax = 0;
+                        double.TryParse(dados["PRE_MAX"]?.ToString(), out preMax);
+
+                        string uf = dados["UF"]?.ToString() ?? string.Empty;
+
+                        double radGlo = 0;
+                        double.TryParse(dados["RAD_GLO"]?.ToString(), out radGlo);
+
+                        double ptoIns = 0;
+                        double.TryParse(dados["PTO_INS"]?.ToString(), out ptoIns);
+
+                        double temMin = 0;
+                        double.TryParse(dados["TEM_MIN"]?.ToString(), out temMin);
+
+                        double vlLongitude = 0;
+                        double.TryParse(dados["VL_LONGITUDE"]?.ToString(), out vlLongitude);
+
+                        double umdMin = 0;
+                        double.TryParse(dados["UMD_MIN"]?.ToString(), out umdMin);
+
+                        double ptoMax = 0;
+                        double.TryParse(dados["PTO_MAX"]?.ToString(), out ptoMax);
+
+                        double venDir = 0;
+                        double.TryParse(dados["VEN_DIR"]?.ToString(), out venDir);
+
+                        DateTime dtMedicao = DateTime.MinValue;
+                        DateTime.TryParse(dados["DT_MEDICAO"]?.ToString(), out dtMedicao);
+
+                        double chuva = 0;
+                        double.TryParse(dados["CHUVA"]?.ToString(), out chuva);
+
+                        double preMin = 0;
+                        double.TryParse(dados["PRE_MIN"]?.ToString(), out preMin);
+
+                        double umdMax = 0;
+                        double.TryParse(dados["UMD_MAX"]?.ToString(), out umdMax);
+
+                        double venVel = 0;
+                        double.TryParse(dados["VEN_VEL"]?.ToString(), out venVel);
+
+                        double ptoMin = 0;
+                        double.TryParse(dados["PTO_MIN"]?.ToString(), out ptoMin);
+
+                        double temMax = 0;
+                        double.TryParse(dados["TEM_MAX"]?.ToString(), out temMax);
+
+                        double tenBat = 0;
+                        double.TryParse(dados["TEN_BAT"]?.ToString(), out tenBat);
+
+                        double venRaj = 0;
+                        double.TryParse(dados["VEN_RAJ"]?.ToString(), out venRaj);
+
+                        double temCpu = 0;
+                        double.TryParse(dados["TEM_CPU"]?.ToString(), out temCpu);
+
+                        double temIns = 0;
+                        double.TryParse(dados["TEM_INS"]?.ToString(), out temIns);
+
+                        double umdIns = 0;
+                        double.TryParse(dados["UMD_INS"]?.ToString(), out umdIns);
+
+                        string cdEstacao = dados["CD_ESTACAO"]?.ToString() ?? string.Empty;
+
+                        TimeSpan hrMedicao = TimeSpan.Zero;
+                        TimeSpan.TryParse(dados["HR_MEDICAO"]?.ToString(), out hrMedicao);
+
+                        var valores = new DadosMeteorologicos(dcNome ?? string.Empty, preIns, temSen, vlLatitude, preMax,
+                            uf, radGlo, ptoIns, temMin, vlLongitude, umdMin, ptoMax, venDir, dtMedicao, chuva, preMin, 
+                            umdMax, venVel, ptoMin, temMax, tenBat, venRaj, temCpu, temIns, umdIns, cdEstacao, hrMedicao);
 
                         return Ok(valores);
                     }

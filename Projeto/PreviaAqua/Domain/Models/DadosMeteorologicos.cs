@@ -10,6 +10,43 @@ namespace Domain.ValueObjects
 {
     public class DadosMeteorologicos
     {
+        public DadosMeteorologicos(string dC_NOME,
+            double pRE_INS, double tEM_SEN, double vL_LATITUDE, 
+            double pRE_MAX, string uF, double rAD_GLO, double pTO_INS, 
+            double tEM_MIN, double vL_LONGITUDE, double uMD_MIN, double pTO_MAX, 
+            double vEN_DIR, DateTime dT_MEDICAO, double cHUVA, double pRE_MIN, 
+            double uMD_MAX, double vEN_VEL, double pTO_MIN, double tEM_MAX, double tEN_BAT,
+            double vEN_RAJ, double tEM_CPU, double tEM_INS, double uMD_INS, string cD_ESTACAO, TimeSpan hR_MEDICAO)
+        {
+            DC_NOME = dC_NOME ?? string.Empty;
+            PRE_INS = pRE_INS;
+            TEM_SEN = tEM_SEN;
+            VL_LATITUDE = vL_LATITUDE;
+            PRE_MAX = pRE_MAX;
+            UF = uF ?? string.Empty;
+            RAD_GLO = rAD_GLO;
+            PTO_INS = pTO_INS;
+            TEM_MIN = tEM_MIN;
+            VL_LONGITUDE = vL_LONGITUDE;
+            UMD_MIN = uMD_MIN;
+            PTO_MAX = pTO_MAX;
+            VEN_DIR = vEN_DIR;
+            DT_MEDICAO = dT_MEDICAO;
+            CHUVA = cHUVA;
+            PRE_MIN = pRE_MIN;
+            UMD_MAX = uMD_MAX;
+            VEN_VEL = vEN_VEL;
+            PTO_MIN = pTO_MIN;
+            TEM_MAX = tEM_MAX;
+            TEN_BAT = tEN_BAT;
+            VEN_RAJ = vEN_RAJ;
+            TEM_CPU = tEM_CPU;
+            TEM_INS = tEM_INS;
+            UMD_INS = uMD_INS;
+            CD_ESTACAO = cD_ESTACAO ?? string.Empty;
+            HR_MEDICAO = hR_MEDICAO;
+        }
+
         [JsonProperty("DC_NOME")]
         [Description("Nome da Cidade")]
         public string DC_NOME { get; set; }

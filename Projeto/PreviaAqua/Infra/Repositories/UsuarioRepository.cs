@@ -1,19 +1,27 @@
 ﻿using Infra.Configurations;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.Extensions.Configuration;
+using Microsoft.IdentityModel.Tokens;
+using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
 
 namespace Infra.Repositories
 {
-    public class UsuarioRepository
+    public class UsuarioRepository : IUsuarioRepository
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly SignInManager<ApplicationUser> _signInManager;
+        private readonly IConfiguration _configuration;
 
-        public UsuarioRepository(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager)
+        public UsuarioRepository(UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager,
+            IConfiguration configuration)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _configuration = configuration;
         }
 
         public async Task<IdentityResult> CriarUsuarioAsync(ApplicationUser usuario, string senha)
@@ -39,6 +47,11 @@ namespace Infra.Repositories
         public async Task<SignInResult> AutenticarUsuarioAsync(string email, string senha)
         {
             return await _signInManager.PasswordSignInAsync(email, senha, isPersistent: false, lockoutOnFailure: false);
+        }
+
+        public async Task<string> GerarToken(ApplicationUser user)
+        {
+            return GenerateJwtToken(user);
         }
 
         private string GenerateJwtToken(ApplicationUser user)

@@ -17,13 +17,10 @@ namespace Api.Controllers
     {
         private readonly IUsuarioRepository _usuarioRepository;
 
-  
-        private readonly IConfiguration _configuration;
 
-        public AuthController(IUsuarioRepository usuarioRepository, IConfiguration configuration)
-        {
+        public AuthController(IUsuarioRepository usuarioRepository)
+        { 
             _usuarioRepository = usuarioRepository;
-            _configuration = configuration;
         }
 
         [AllowAnonymous]
@@ -39,7 +36,6 @@ namespace Api.Controllers
 
                 if (!resultado.Succeeded)
                     return BadRequest();
-                var token = GenerateJwtToken(resultado);
                 return Ok();
 
             }
@@ -51,12 +47,13 @@ namespace Api.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
-            var user = await _userManager.FindByEmailAsync(model.Email);
+            var userValidado = await _usuarioRepository.AutenticarUsuarioAsync(model.Email, model.Password);
 
-            if (user != null && await _userManager.CheckPasswordAsync(user, model.Password))
+            if (userValidado != null)
             {
+                var user = await _usuarioRepository.BuscarUsuarioPorEmailAsync(model.Email);
                 // Usuário autenticado com sucesso, você pode gerar um token JWT aqui
-                var token = GenerateJwtToken(user);
+                var token = _usuarioRepository.GerarToken(user);
 
                 return Ok(new { token });
             }
@@ -64,31 +61,8 @@ namespace Api.Controllers
             return Unauthorized("Usuário ou senha inválidos");
         }
 
-        private string GenerateJwtToken(ApplicationUser user)
-        {
-            var claims = new[]
-            {
-            new Claim(ClaimTypes.NameIdentifier, user.Id),
-            new Claim(ClaimTypes.Name, user.UserName)
-            // Adicione outras claims personalizadas, se necessário
-        };
 
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JwtKey"]));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-
-            var token = new JwtSecurityToken(
-                issuer: _configuration["JwtIssuer"],
-                audience: _configuration["JwtIssuer"],
-                claims: claims,
-                expires: DateTime.Now.AddMinutes(30), // Defina o tempo de expiração do token
-                signingCredentials: creds
-            );
-
-            return new JwtSecurityTokenHandler().WriteToken(token);
-        }
-    
-
-        [HttpPost("GerarToken")]
+        [HttpPost("gerarToken")]
         public async Task<IActionResult> GerarToken()
         {
             var tokenGenerator = new JwtSettings();
@@ -99,15 +73,15 @@ namespace Api.Controllers
 
             var claims = new[]
                             {
-                    new Claim(ClaimTypes.Name, "SeuNome"),
-                    new Claim(ClaimTypes.Email, "seu@email.com"),
+                    new Claim(ClaimTypes.Name, "AmandaTeste"),
+                    new Claim(ClaimTypes.Email, "amandaTeste@email.com"),
                     // Adicione outras reivindicações conforme necessário
                 };
 
             var token = tokenGenerator.GenerateToken(secretKey, issuer, audience, expirationMinutes, claims);
             Console.WriteLine("Token JWT gerado:");
             Console.WriteLine(token);
-            return Ok(token);
+            return Ok("Bearer " + token);
         }
     }
 }

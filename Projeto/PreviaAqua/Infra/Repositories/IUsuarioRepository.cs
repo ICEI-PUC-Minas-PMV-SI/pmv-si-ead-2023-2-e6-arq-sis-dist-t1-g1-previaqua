@@ -10,5 +10,6 @@ namespace Infra.Repositories
         Task<ApplicationUser> BuscarUsuarioPorIdAsync(string userId);
         Task<IdentityResult> CriarUsuarioAsync(ApplicationUser usuario, string senha);
         Task<List<ApplicationUser>> ListarUsuariosAsync();
+        public Task<string> GerarToken(ApplicationUser user);
     }
 }
