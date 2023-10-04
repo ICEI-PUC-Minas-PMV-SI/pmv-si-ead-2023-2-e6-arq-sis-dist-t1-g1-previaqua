@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Api/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "FluentValidation": "11.3.0",
           "Infra": "1.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
@@ -1623,6 +1624,11 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
+      "Application/1.0.0": {
+        "runtime": {
+          "Application.dll": {}
+        }
+      },
       "Domain/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
@@ -2871,6 +2877,11 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Domain/1.0.0": {
       "type": "project",
