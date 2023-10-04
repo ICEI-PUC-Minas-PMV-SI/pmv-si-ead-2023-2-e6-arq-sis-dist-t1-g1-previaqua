@@ -1,5 +1,6 @@
 using Api;
 using Infra.Configurations;
+using Infra.Integracoes.ApiConsultaDadosClimaticos;
 using Infra.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
@@ -54,6 +55,7 @@ builder.Services.AddScoped<RoleManager<IdentityRole>>();
 builder.Services.AddScoped<ApplicationUser>();
 builder.Services.AddScoped<JwtSettings>();
 builder.Services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddScoped<IConsultaDadosClimaticos, ConsultaDadosClimaticos>();
 
 // Configuração do Swagger/OpenAPI
 builder.Services.AddSwaggerGen(c =>
