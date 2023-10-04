@@ -13,6 +13,5 @@
         public DateTime DataHora { get; set; }
         public double Altura { get; set; }
         public Localizacao Localizacao { get; set; }
-      
     }
 }
