@@ -49,19 +49,20 @@ A aplicação web PreviAqua lida com dados meteorológicos. A estrutura de dados
 
 ### Diagrama de Classes ou Entidades:
 A estrutura de dados mencionada pode ser representada em um diagrama de classes ou entidades da seguinte forma:
-+------------------------------------+
-|           Alerta                  |
-+------------------------------------+
-| - chuva: float                    |
-| - umidadeMaxima: int              |
-| - pressao: int                    |
-| - resultado: string               |
-+------------------------------------+
-| + getChuva(): float               |
-| + getUmidadeMaxima(): int         |
-| + getPressao(): int               |
-| + getResultado(): string          |
-+------------------------------------+
+| Classe: Alerta                                  |
+|-----------------------------------------------|
+| Atributos:                                    |
+| - chuva: float                                |
+| - umidadeMaxima: int                          |
+| - pressao: int                                |
+| - resultado: string                           |
+|                                               |
+| Métodos:                                      |
+| + getChuva(): float                           |
+| + getUmidadeMaxima(): int                     |
+| + getPressao(): int                           |
+| + getResultado(): string                      |
+|-----------------------------------------------|
 
 Neste diagrama, a classe Alerta possui atributos privados representando os dados meteorológicos e métodos públicos para acessar esses atributos.
 
