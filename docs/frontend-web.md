@@ -38,7 +38,42 @@ O frontend exibe os dados climáticos ao usuário.
 Essa arquitetura permite uma separação clara entre a interface do usuário (frontend) e a lógica de negócios (API web). Além disso, mantém a flexibilidade para se integrar a diferentes fontes de dados climáticos e escalar conforme necessário para atender a uma crescente demanda de usuários.
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+
+### Estrutura de Dados:
+A aplicação web PreviAqua lida com dados meteorológicos. A estrutura de dados principal é um objeto Alerta que contém as informações meteorológicas para uma cidade. As informações incluídas no objeto Alerta são:
+
+- chuva: Probabilidade de chuvas em milímetros.
+- umidadeMaxima: Umidade máxima em porcentagem.
+- pressao: Pressão atmosférica em milibares.
+- resultado: Resultado geral dos dados meteorológicos.
+
+### Diagrama de Classes ou Entidades:
+A estrutura de dados mencionada pode ser representada em um diagrama de classes ou entidades da seguinte forma:
++------------------------------------+
+|           Alerta                  |
++------------------------------------+
+| - chuva: float                    |
+| - umidadeMaxima: int              |
+| - pressao: int                    |
+| - resultado: string               |
++------------------------------------+
+| + getChuva(): float               |
+| + getUmidadeMaxima(): int         |
+| + getPressao(): int               |
+| + getResultado(): string          |
++------------------------------------+
+
+Neste diagrama, a classe Alerta possui atributos privados representando os dados meteorológicos e métodos públicos para acessar esses atributos.
+
+### Representações Visuais Relevantes:
+A aplicação PreviAqua possui uma interface de usuário com elementos HTML, CSS e JavaScript para interação com os usuários e exibição dos dados. Alguns dos elementos visuais relevantes na aplicação são:
+
+- Header: O cabeçalho da página contém o logotipo, o botão de menu, e a barra de navegação.
+- Formulário de Busca: O formulário de busca permite aos usuários inserir o nome de uma cidade e pressionar o botão "Procurar" para obter informações meteorológicas.
+- Resultados: A seção de resultados exibe as informações meteorológicas, incluindo a probabilidade de chuva, umidade máxima, pressão atmosférica e um resultado geral.
+- Previsão do Tempo: A previsão do tempo para os próximos dias é exibida em formato de tabela, com informações como o dia da semana, a data, a cidade, a temperatura, ícones de clima e outras informações relacionadas.
+- Notícias: A seção de notícias exibe informações relacionadas ao clima e eventos climáticos em várias regiões.
+- Além disso, a aplicação utiliza JavaScript para fazer chamadas à API externa para obter os dados meteorológicos com base na cidade inserida pelo usuário e exibir esses dados na seção de resultados.
 
 ## Projeto da Interface Web
 [Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
