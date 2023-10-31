@@ -105,7 +105,14 @@ A aplicação PreviAqua possui uma interface de usuário com elementos HTML, CSS
 [Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
 
 ### Design Visual
-[Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
+1. Paleta de Cores:
+- Optamos por uma paleta de tons escuros para o front-end para proporcionar uma experiência de usuário agradável e de fácil leitura, especialmente durante a noite.
+
+2. Tipografia:
+- A fonte principal usada no corpo do texto é "Roboto" com uma queda para "Open Sans" como uma fonte de fallback. A fonte é legível e possui uma aparência moderna.
+
+3. Botões:
+- Os botões na interface têm bordas arredondadas e uma cor de fundo azul (#009ad8) com texto branco para criar um contraste com o fundo escuro e facilitar a encontrabilidade pelo usuário.
 
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
