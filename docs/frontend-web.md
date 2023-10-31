@@ -9,6 +9,34 @@
 
 [Descrição da arquitetura das aplicação web, incluindo os componentes e suas interações.]
 
+Frontend (Cliente Web):
+
+Este é o componente com o qual o usuário interage.
+O frontend fornece uma interface de usuário amigável para inserir informações, como o nome da cidade ou coordenadas geográficas, e solicitar dados climáticos.
+Ele envia solicitações à API web para buscar os dados climáticos necessários.
+O frontend também exibe os dados climáticos de forma legível, podendo ser em tabelas, gráficos ou outros elementos visuais, dependendo dos requisitos do projeto.
+Pode oferecer recursos adicionais, como filtros, favoritos, gráficos interativos e recursos de compartilhamento.
+
+API Web (Backend):
+
+O backend é responsável por processar as solicitações do frontend e acessar os dados climáticos.
+Ele se comunica com serviços externos para coletar informações climáticas atualizadas. Neste caso, ele pode se integrar a serviços meteorológicos ou fontes de dados climáticos confiáveis, como APIs de meteorologia.
+A API recebe solicitações do frontend, analisa os parâmetros, busca os dados climáticos relevantes da fonte de dados externa e, em seguida, envia os dados de volta para o frontend em um formato adequado (geralmente JSON).
+Ela lida com a lógica de negócios, como a validação dos parâmetros de entrada e a formatação dos dados de saída.
+
+Serviço de Dados Climáticos Externos:
+
+Este componente representa os serviços externos, como APIs de meteorologia ou fontes de dados climáticos em tempo real.
+Fornecem informações climáticas detalhadas para cidades brasileiras e estão conectados à API web.
+Podem incluir previsões de temperatura, umidade, precipitação, vento e outros parâmetros climáticos.
+
+O usuário insere o nome da cidade ou coordenadas geográficas no frontend.
+O frontend envia uma solicitação à API web, incluindo os parâmetros da consulta (cidade, coordenadas, etc.).
+A API web valida a solicitação, faz uma chamada aos serviços de dados climáticos externos, obtém os dados climáticos correspondentes e os formata em um formato JSON.
+A API web envia a resposta JSON de volta ao frontend.
+O frontend exibe os dados climáticos ao usuário.
+Essa arquitetura permite uma separação clara entre a interface do usuário (frontend) e a lógica de negócios (API web). Além disso, mantém a flexibilidade para se integrar a diferentes fontes de dados climáticos e escalar conforme necessário para atender a uma crescente demanda de usuários.
+
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
