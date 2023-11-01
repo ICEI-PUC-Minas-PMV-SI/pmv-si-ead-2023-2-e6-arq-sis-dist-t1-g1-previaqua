@@ -102,7 +102,7 @@ A aplicação PreviAqua possui uma interface de usuário com elementos HTML, CSS
 [Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
 
 ### Wireframes
-[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
+![Wireframe](img/wireframe.png)
 
 ### Design Visual
 1. Paleta de Cores:
