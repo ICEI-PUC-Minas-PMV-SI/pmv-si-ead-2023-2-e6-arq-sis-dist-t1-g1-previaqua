@@ -99,7 +99,6 @@ A aplicação PreviAqua possui uma interface de usuário com elementos HTML, CSS
 - Além disso, a aplicação utiliza JavaScript para fazer chamadas à API externa para obter os dados meteorológicos com base na cidade inserida pelo usuário e exibir esses dados na seção de resultados.
 
 ## Projeto da Interface Web
-[Descreva o projeto da interface Web da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
 
 ### Wireframe
 ![Wireframe](img/wireframe.png)
