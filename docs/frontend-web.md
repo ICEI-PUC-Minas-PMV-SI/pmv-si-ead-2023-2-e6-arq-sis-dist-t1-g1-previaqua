@@ -143,12 +143,19 @@ Os dados obtidos da API são exibidos na página da web. Os alertas climáticos 
 Se os dados da API estiverem indisponíveis para um determinado tipo de alerta, a mensagem "sem dados disponíveis" é exibida.
 
 ## Requisitos Funcionais
-
-[Liste os principais requisitos funcionais da aplicação.]
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| A aplicação deve fornecer dados sobre alertas de eventos climáticos | Alta | 
+|RF-002| A aplicação deve fornecer dados sobre a probabilidade de chuvas  | Alta |
+|RF-003| A aplicação deve fornecer dados sobre a umidade máxima do ar | Alta |
+|RF-004| A aplicação deve fornecer dados sobre a pressão atmostérica | Alta |
+|RF-005| A aplicação deve permitir fazer buscas de cidades  | Média |
 
 ## Requisitos Não Funcionais
-
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+| ID     | Descrição do Requisito                                        | Prioridade |
+|--------|---------------------------------------------------------------|------------|
+| RNF-001 | O design de interface do usuário deve estar conforme as melhores práticas de Design Responsivo | Média       |
+| RNF-002 | A aplicação deve estar em conformidade com os padrões de acessibilidade  | Alta      |
 
 
 ## Considerações de Segurança
