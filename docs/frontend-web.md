@@ -1,28 +1,16 @@
-### Front-end Web
-## Tecnologias Utilizadas
-
-Tecnologias utilizadas:
-
+# Front-end Web
+### Tecnologias Utilizadas
 Backend (API Web ASP.NET Core):
-
 ASP.NET Core: framework do lado do servidor da Microsoft usado para desenvolver a API.
-
 C#: A linguagem de programação usada para escrever a lógica da aplicação no backend.
-
 Swagger: interface interativa para testar endpoints.
-
-
 
 ### Frontend (JavaScript, HTML e CSS):
 
 HTML: A linguagem de marcação usada para estruturar o conteúdo da página da web.
-
 CSS (Cascading Style Sheets): Utilizado para estilizar e formatar a aparência da página web.
-
 JavaScript: A linguagem de programação usada para criar interatividade no lado do cliente. 
-
 AJAX: É frequentemente usado para fazer solicitações assíncronas à API para buscar ou enviar dados sem a necessidade de recarregar a página.
-
 
 ## Arquitetura
 
@@ -159,6 +147,9 @@ Se os dados da API estiverem indisponíveis para um determinado tipo de alerta, 
 
 ## Implantação
 Hospedamos o front-end no Github Pages e o mesmo faz chamadas à API hospedada no serviço de nuvem Azure (Aplicativos Web).
+
+### Link do front-end:
+- https://thomasdotcom.github.io/previaqua/
 
 ### Link da API utilizada pela aplicação web:
 - https://alertaeventosclimaticos.azurewebsites.net/api/alertas/{nome-da-cidade}
