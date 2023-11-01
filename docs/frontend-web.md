@@ -157,18 +157,11 @@ Se os dados da API estiverem indisponíveis para um determinado tipo de alerta, 
 | RNF-001 | O design de interface do usuário deve estar conforme as melhores práticas de Design Responsivo | Média       |
 | RNF-002 | A aplicação deve estar em conformidade com os padrões de acessibilidade  | Alta      |
 
-
-## Considerações de Segurança
-
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
-
 ## Implantação
+Hospedamos o front-end no Github Pages e o mesmo faz chamadas à API hospedada no serviço de nuvem Azure (Aplicativos Web).
 
-1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+### Link da API utilizada pela aplicação web:
+- https://alertaeventosclimaticos.azurewebsites.net/api/alertas/{nome-da-cidade}
 
 ## Testes
 
