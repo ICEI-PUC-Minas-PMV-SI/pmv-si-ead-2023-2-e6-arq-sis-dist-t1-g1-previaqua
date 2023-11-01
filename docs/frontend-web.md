@@ -238,4 +238,5 @@ describe('Integração entre os componentes da aplicação', () => {
 
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+- Jest. (2023). Jest - JavaScript Testing Framework. Retrieved from https://jestjs.io/
+- Alura. (s.d.). 10 Heurísticas de Nielsen: Uma Fórmula para Evitar Erros Básicos de Usabilidade. Retrieved from https://www.alura.com.br/artigos/10-heuristicas-de-nielsen-uma-formula-pra-evitar-erros-basicos-de-usabilidade
