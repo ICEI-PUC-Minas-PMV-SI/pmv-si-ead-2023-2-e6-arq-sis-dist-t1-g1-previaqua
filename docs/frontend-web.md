@@ -135,8 +135,12 @@ O projeto foi meticulosamente desenvolvido com o objetivo de oferecer uma experi
 
 
 ## Fluxo de Dados
-
-[Diagrama ou descrição do fluxo de dados na aplicação.]
+O usuário acessa a página da web e insere o nome da cidade desejada no campo de entrada com o ID "cidade".
+Quando o usuário clica no botão "Procurar" com o ID "city," o evento de clique é acionado.
+O código JavaScript associado ao evento de clique inicia uma solicitação GET para uma API de alertas climáticos. A URL da API é construída com base no nome da cidade inserido e é definida como URL.
+A resposta da API é analisada para obter informações sobre os alertas climáticos para a cidade. Os tipos de alertas incluem probabilidade de chuvas, umidade máxima, pressão atmosférica e um resultado geral.
+Os dados obtidos da API são exibidos na página da web. Os alertas climáticos são mostrados na div com o ID "resultado." Cada tipo de alerta é exibido como uma lista, incluindo a probabilidade de chuvas, umidade máxima, pressão atmosférica e um resultado geral.
+Se os dados da API estiverem indisponíveis para um determinado tipo de alerta, a mensagem "sem dados disponíveis" é exibida.
 
 ## Requisitos Funcionais
 
