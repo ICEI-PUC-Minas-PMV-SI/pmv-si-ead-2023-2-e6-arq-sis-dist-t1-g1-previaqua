@@ -42,17 +42,35 @@
 
 ## Considerações de Segurança
 
-[Discuta as considerações de segurança relevantes para a aplicação distribuída, como autenticação, autorização, proteção contra ataques, etc.]
+## Autenticação e Autorização:
+
+1. Utilização de serviços de autenticação da AWS, como AWS Identity and Access Management (IAM), para controlar o acesso aos recursos.
+
+## Proteção contra Ataques:
+1. Configuração de grupos de segurança e ACL para controlar o tráfego de entrada/saída para instâncias EC2.
+
+2. Utilização de serviços como AWS WAF (Web Application Firewall) para proteger contra ataques comuns na web.
+
+## Outros serviços de segurança:
+
+1. Utilização do Cloudtrail para análises e rastreio de ações
+   
+2. Utilização do GuardDuty para proteger a instância em nível de camada de aplicação contra agentes maliciosos
+
 
 ## Implantação
 
-[Instruções para implantar a aplicação distribuída em um ambiente de produção.]
+## Criação de Recursos na AWS:
 
-1. Defina os requisitos de hardware e software necessários para implantar a aplicação em um ambiente de produção.
-2. Escolha uma plataforma de hospedagem adequada, como um provedor de nuvem ou um servidor dedicado.
-3. Configure o ambiente de implantação, incluindo a instalação de dependências e configuração de variáveis de ambiente.
-4. Faça o deploy da aplicação no ambiente escolhido, seguindo as instruções específicas da plataforma de hospedagem.
-5. Realize testes para garantir que a aplicação esteja funcionando corretamente no ambiente de produção.
+1. Criar instâncias EC2, configurar grupos de segurança, criar bancos de dados, definir políticas IAM, etc.
+Instalação de Dependências e Configuração de Variáveis de Ambiente:
+
+2. Instalar e configurar as dependências da aplicação.
+Configurar variáveis de ambiente para se adaptar ao ambiente de produção.
+Deploy da Aplicação:
+
+3. Subir o código da aplicação para as instâncias EC2.
+Configurar servidores web ( ISS )
 
 ## Testes
 
