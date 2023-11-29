@@ -63,13 +63,14 @@
 ## Criação de Recursos na AWS:
 
 1. Criar instâncias EC2, configurar grupos de segurança, criar bancos de dados, definir políticas IAM, etc.
-Instalação de Dependências e Configuração de Variáveis de Ambiente:
 
-2. Instalar e configurar as dependências da aplicação.
+## Instalação de Dependências e Configuração de Variáveis de Ambiente:
+
+1. Instalar e configurar as dependências da aplicação.
 Configurar variáveis de ambiente para se adaptar ao ambiente de produção.
 Deploy da Aplicação:
 
-3. Subir o código da aplicação para as instâncias EC2.
+2. Subir o código da aplicação para as instâncias EC2.
 Configurar servidores web ( ISS )
 
 ## Testes
