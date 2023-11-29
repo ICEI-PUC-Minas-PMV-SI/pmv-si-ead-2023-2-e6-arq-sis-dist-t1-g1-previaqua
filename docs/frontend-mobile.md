@@ -58,7 +58,7 @@
 2. Utilização do GuardDuty para proteger a instância em nível de camada de aplicação contra agentes maliciosos
 
 
-## Implantação
+## Implantação:
 
 ## Criação de Recursos na AWS:
 
