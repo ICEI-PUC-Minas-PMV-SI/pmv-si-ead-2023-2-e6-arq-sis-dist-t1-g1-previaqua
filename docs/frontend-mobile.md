@@ -36,15 +36,48 @@ A paleta de cores incluem as cores azul, laranja, cinza e roxo; cores essas que 
 
 ## Fluxo de Dados
 
-[Diagrama ou descrição do fluxo de dados na aplicação.]
+1 - Abertura do Aplicativo:
+   * O usuário abre o aplicativo em seu dispositivo móvel.
+     
+2 - Interface de Entrada de Dados:
+   * O aplicativo exibe uma tela de entrada de dados solicitando que o usuário insira o estado e a cidade que deseja consultar em relação à precipitação.
+     
+3 - Interatividade com o Front-end:
+   *   O usuário insere o estado e a cidade desejados.
+   * O front-end valida os dados inseridos para garantir que correspondam a uma localização válida.
+  
+4 - Comunicação com o Back-end:
+   * Após a validação, o front-end envia uma solicitação ao back-end contendo as informações de localização inseridas pelo usuário.
+     
+5 - Integração com a API do INMET:
+   * O back-end faz uma chamada à API do INMET (Instituto Nacional de Meteorologia) para obter informações meteorológicas da região específica fornecida pelo usuário (estado e cidade).
+   * A API do INMET retorna os dados meteorológicos, incluindo informações sobre precipitação e volume de chuva para essa região.
+     
+6 - Processamento dos Dados Recebidos:
+   * O back-end processa os dados recebidos da API do INPE para estruturá-los de forma adequada para serem enviados de volta ao front-end.
+     
+7 - Retorno dos Dados para o Usuário:
+   * O back-end envia os dados processados de precipitação e volume de chuva de volta para o front-end.
+     
+8 - Exibição dos Resultados para o Usuário:
+   * O front-end recebe os dados do back-end e os apresenta de forma legível e compreensível para o usuário na interface do aplicativo mobile.
+   * O usuário visualiza as informações sobre a precipitação e o volume de chuva na região específica que consultou.
+     
+9 - Possíveis Ações do Usuário:
+   * Com base nas informações fornecidas, o usuário pode tomar decisões, como planejar atividades ao ar livre, se preparar para possíveis alagamentos ou deslizamentos de terra, etc.
 
 ## Requisitos Funcionais
 
-[Liste os principais requisitos funcionais da aplicação.]
+* O sistema deve permitir que o usuário entre com sua localidade.
+
 
 ## Requisitos Não Funcionais
 
-[Liste os principais requisitos não funcionais da aplicação, como desempenho, segurança, escalabilidade, etc.]
+* O software deve ser de fácil uso e intuivo.
+* O sistema deve ser capaz de retornar a resposta ao usuário em menos de 30 segundos.
+* O sistema deve estar disponível 99,97% do tempo.
+* O sistema deverá conter uma interface fácil de mexer e rápida para buscar informações. 
+  
 
 
 ## Considerações de Segurança
