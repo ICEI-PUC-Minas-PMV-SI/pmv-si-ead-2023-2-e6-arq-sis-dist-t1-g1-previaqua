@@ -2,7 +2,7 @@
 
 LINK: https://snack.expo.dev/@bernardocrs/previaqua
 
-[Inclua uma breve descrição do projeto e seus objetivos.]
+O PreviAqua versão mobile permite aos usuários acessar as últimas notícias climáticas, conferir a previsão do tempo da sua cidade e alertar outros usuários de eventos climáticos.
 
 ## Tecnologias Utilizadas
 [Lista das tecnologias principais que serão utilizadas no projeto.]
