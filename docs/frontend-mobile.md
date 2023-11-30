@@ -27,7 +27,7 @@ Escolhemos ícones facilmente identificáveis que remetem a feed de notícias (j
 A paleta de cores incluem as cores azul, laranja, cinza e roxo; cores essas que remetem às condições climáticas ou estão presentes classicamente em apps de previsão do tempo.
 
 ### Layout Responsivo
-[Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
+O aplicativo apresenta práticas de design responsivo, utilizando recursos do React Native para garantir uma experiência de usuário consistente em uma variedade de dispositivos. O uso de fontes com propriedades responsivas garantem que o tamanho da fonte se ajuste proporcialmente ao tamanho da tela. A combinação de unidades relativas, flexibilidade com Flexbox e a utilização eficiente de estados contribuem para um layout que se ajusta dinamicamente, promovendo uma experiência agradável para os usuários em diferentes contextos.
 
 ### Interações do Usuário
 [Descreva as interações do usuário na interface, como animações, transições entre páginas e outras interações.]
