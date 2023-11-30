@@ -1,5 +1,7 @@
 # Front-end Móvel
 
+LINK: https://snack.expo.dev/@bernardocrs/previaqua
+
 [Inclua uma breve descrição do projeto e seus objetivos.]
 
 ## Tecnologias Utilizadas
