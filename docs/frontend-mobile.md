@@ -16,10 +16,15 @@
 [Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
 
 ### Wireframes
-[Inclua os wireframes das páginas principais da interface, mostrando a disposição dos elementos na página.]
+![Wireframe](img/wireframe-mobile.drawio.png)
 
 ### Design Visual
-[Descreva o estilo visual da interface, incluindo paleta de cores, tipografia, ícones e outros elementos gráficos.]
+Optamos por uma interface clean, utilizando uma barra de navegação inferior com três tabs: 
+- Feed: primeira página que aparece ao abrir o App. Nela constam notícias recentes sobre questões relacionadas ao clima.
+- Previsão: onde o usuário pode digitar o nome da cidade e visualizar informações climáticas em tempo real.
+- Alertas: local onde o usuário visualiza alertas emitidos por outros usuários da plataforma sobre enchentes, deslizamentos, alagamentos, etc. O usuário também é capaz de criar um alerta.
+Escolhemos ícones facilmente identificáveis que remetem a feed de notícias (jornal), previsão do tempo (nuvem e sol), alerta (exclamação).
+A paleta de cores incluem as cores azul, laranja, cinza e roxo; cores essas que remetem às condições climáticas ou estão presentes classicamente em apps de previsão do tempo.
 
 ### Layout Responsivo
 [Discuta como a interface será adaptada para diferentes tamanhos de tela e dispositivos.]
