@@ -15,8 +15,6 @@ O PreviAqua versão mobile permite aos usuários acessar as últimas notícias c
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
 
 ## Projeto da Interface
-[Descreva o projeto da interface móvel da aplicação, incluindo o design visual, layout das páginas, interações do usuário e outros aspectos relevantes.]
-
 ### Wireframes
 ![Wireframe](img/wireframe-mobile.drawio.png)
 
