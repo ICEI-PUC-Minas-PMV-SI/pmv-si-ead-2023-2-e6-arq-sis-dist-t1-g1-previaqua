@@ -5,11 +5,21 @@ LINK: https://snack.expo.dev/@bernardocrs/previaqua
 O PreviAqua versão mobile permite aos usuários acessar as últimas notícias climáticas, conferir a previsão do tempo da sua cidade e alertar outros usuários de eventos climáticos.
 
 ## Tecnologias Utilizadas
-[Lista das tecnologias principais que serão utilizadas no projeto.]
+As principais tecnologias utilizadas para o desenvolvimento mobile foram:
+1 - Linguagens de Programação:
+  * HTML;
+  * CSS;
+  * Javascript
+
+2 - Frameworks e Bibliotecas
+  * React Native
+  * Swift
+
+Além disso, foi utilizada uma API do INMET em conexão com a aplicação.
 
 ## Arquitetura
 
-[Descrição da arquitetura das aplicação móvel, incluindo os componentes e suas interações.]
+A arquitetura da aplicação móvel utilizada foi a arquitetura MVC (Model-View-Controller), onde o modelo, ou seja, a parte lógica, foi utilizada uma API para buscar as condições meteorológicas do local desejado. A camada de visão foi desenvolvida para ser fácil e de simples manuseio onde suas funções são intuitivas ao usuário. Já o controle também desenvolvido para ser leve e trazer agilidade ao sistema.
 
 ## Modelagem da Aplicação
 [Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
