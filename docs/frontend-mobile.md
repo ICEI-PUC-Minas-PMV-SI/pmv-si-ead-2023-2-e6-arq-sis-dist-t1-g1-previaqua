@@ -22,7 +22,14 @@ Além disso, foi utilizada uma API do INMET em conexão com a aplicação.
 A arquitetura da aplicação móvel utilizada foi a arquitetura MVC (Model-View-Controller), onde o modelo, ou seja, a parte lógica, foi utilizada uma API para buscar as condições meteorológicas do local desejado. A camada de visão foi desenvolvida para ser fácil e de simples manuseio onde suas funções são intuitivas ao usuário. Já o controle também desenvolvido para ser leve e trazer agilidade ao sistema.
 
 ## Modelagem da Aplicação
-[Descreva a modelagem da aplicação, incluindo a estrutura de dados, diagramas de classes ou entidades, e outras representações visuais relevantes.]
+A aplicação PreviAqua tem uma estrutura de dados que envolve principalmente informações climáticas de diferentes cidades.
+
+API Consulta de Dados Climáticos
+
+Entidades Principais:
+Cidade: Representa informações sobre uma cidade específica, incluindo nome, coordenadas geográficas (latitude e longitude) e informações climáticas associadas.
+Usuário: Armazena dados de usuários da aplicação, incluindo informações de autenticação e permissões.
+Estação Meteorológica: Representa uma estação meteorológica, com informações como código de estação, localização (latitude e longitude), e dados específicos da estação, como temperatura, umidade, pressão atmosférica, etc.
 
 ## Projeto da Interface
 ### Wireframes
