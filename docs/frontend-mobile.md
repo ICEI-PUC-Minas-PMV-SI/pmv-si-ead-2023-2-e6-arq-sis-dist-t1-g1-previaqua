@@ -13,7 +13,6 @@ As principais tecnologias utilizadas para o desenvolvimento mobile foram:
 
 2 - Frameworks e Bibliotecas
   * React Native
-  * Swift
 
 Além disso, foi utilizada uma API do INMET em conexão com a aplicação.
 
