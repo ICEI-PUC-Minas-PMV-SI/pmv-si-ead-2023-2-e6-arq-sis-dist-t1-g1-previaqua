@@ -296,4 +296,6 @@ A interface deve fornecer opções de filtragem para facilitar a busca de inform
 
 # Referências
 
-Inclua todas as referências (livros, artigos, sites, etc) utilizados no desenvolvimento do trabalho.
+- FACEBOOK. React Native Documentation. Facebook, Inc., 2022. Disponível em: https://reactnative.dev/docs/getting-started. Acesso em: 30 nov. 2023.
+- FACEBOOK. React Documentation. Facebook, Inc., 2022. Disponível em: https://reactjs.org/. Acesso em: 30 nov. 2023.
+
