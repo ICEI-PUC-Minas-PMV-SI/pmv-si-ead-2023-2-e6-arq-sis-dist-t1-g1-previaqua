@@ -113,13 +113,170 @@ Configurar servidores web ( ISS )
 
 ## Testes
 
-[Descreva a estratégia de teste, incluindo os tipos de teste a serem realizados (unitários, integração, carga, etc.) e as ferramentas a serem utilizadas.]
+ROTEIRO DE TESTES PARA REQUISITOS FUNCIONAIS.
 
-1. Crie casos de teste para cobrir todos os requisitos funcionais e não funcionais da aplicação.
-2. Implemente testes unitários para testar unidades individuais de código, como funções e classes.
-3. Realize testes de integração para verificar a interação correta entre os componentes da aplicação.
-4. Execute testes de carga para avaliar o desempenho da aplicação sob carga significativa.
-5. Utilize ferramentas de teste adequadas, como frameworks de teste e ferramentas de automação de teste, para agilizar o processo de teste.
+A) Casos de Teste para ALERTAS
+
+Descrição: Verificar se o requisito funcional "Alertas" fornece informações sobre a probabilidade de chuva.
+
+Passos de Execução:
+
+1 - Abra o aplicativo móvel.
+2 - Navegue até a seção de Previsão.
+3 - Digite o nome da cidade desejada.
+4 - Aperte o botão Pesquisar.
+5 - Vá até a aba Alertas.
+
+Saídas Esperadas:
+
+O aplicativo deve exibir o alerta climático para a cidade selecionada.
+A informação sobre a probabilidade de chuva deve ser clara e precisa.
+
+Critérios de Aceitação:
+
+O alerta climático deve ser exibido em tempo real.
+A probabilidade de chuva deve ser expressa em texto.
+A informação de probabilidade de chuva deve ser atualizada regularmente.
+As notificações de alerta devem ser entregues corretamente.
+
+Cenários Adicionais:
+
+Teste de Precisão: Comparar as informações de alerta climático com fontes confiáveis de dados meteorológicos para garantir precisão.
+
+Este caso de teste abrange a funcionalidade crítica de fornecimento de alertas climáticos, com foco especial na precisão e na capacidade do aplicativo de informar sobre a probabilidade de chuva.
+
+
+B) Caso de Teste para Previsão do Tempo:
+
+Descrição: Verificar se o aplicativo móvel fornece uma previsão do tempo precisa e atualizada.
+
+Passos de Execução:
+
+1 - Abra o aplicativo móvel.
+2 - Navegue até a seção de Previsão.
+3 - Digite o nome da cidade desejada.
+4 - Aperte o botão Pesquisar.
+
+Saídas Esperadas:
+
+O aplicativo deve exibir a previsão do tempo para a cidade selecionada e informações sobre possibilidade de chuva e condições de umidade e pressão.
+
+Critérios de Aceitação:
+
+A previsão do tempo deve abranger o período especificado.
+A informação de previsão do tempo deve ser atualizada regularmente.
+
+
+
+C) Caso de Teste para Feed de Notícias sobre o Tempo:
+
+Descrição: Verificar se o aplicativo móvel fornece um feed de notícias sobre o tempo, mantendo os usuários informados sobre eventos climáticos relevantes.
+
+Passos de Execução:
+
+1 - Abra o aplicativo móvel.
+2 - Navegue até a seção de FEED.
+3 - Explore notícias sobre eventos climáticos recentes.
+4 - Abra uma notícia específica para obter detalhes adicionais.
+
+Saídas Esperadas:
+
+O feed de notícias sobre o tempo deve conter informações relevantes e atualizadas.
+Cada notícia deve incluir detalhes sobre o evento climático, possíveis impactos e precauções.
+
+Critérios de Aceitação:
+
+O feed de notícias deve ser atualizado regularmente.
+As notícias devem ser apresentadas de forma clara e compreensível.
+As notificações podem ser configuradas para alertar sobre notícias importantes.
+
+Cenários Adicionais:
+
+Teste de Navegação: Certificar-se de que os usuários podem navegar facilmente entre diferentes notícias e categorias no feed.
+
+
+ROTEIRO PARA CASOS DE TESTE DE REQUISITOS NÃO-FUNCIONAIS
+
+A) Caso de Teste para Usabilidade:
+
+Descrição: Verificar se o software é fácil de usar e possui uma interface intuitiva.
+
+Passos de Execução:
+
+Abra o software.
+Execute uma tarefa comum, como buscar informações ou realizar uma operação simples.
+
+Saídas Esperadas:
+
+O software deve apresentar uma interface clara e fácil de entender.
+As funcionalidades básicas devem ser acessíveis com poucos cliques.
+Os elementos da interface, como botões e menus, devem seguir uma lógica intuitiva.
+
+Critérios de Aceitação:
+
+A interface do software deve ser compreensível para usuários sem treinamento prévio.
+Os elementos da interface devem ser consistentes em todo o software.
+
+
+B) Caso de Teste para Tempo de Resposta:
+
+Descrição: Verificar se o sistema retorna a resposta ao usuário em menos de 30 segundos.
+
+Passos de Execução:
+
+Execute uma operação que envolva processamento ou busca de dados.
+Meça o tempo que o sistema leva para fornecer a resposta.
+
+Saídas Esperadas:
+
+O tempo de resposta do sistema deve ser inferior a 30 segundos.
+O sistema deve exibir um indicador de progresso ou informação de que está processando durante operações mais demoradas.
+
+Critérios de Aceitação:
+
+O tempo de resposta deve ser consistente mesmo durante períodos de carga mais elevada.
+Operações que normalmente levam menos de 5 segundos são consideradas altamente responsivas.
+
+
+C) Caso de Teste para Disponibilidade do Sistema:
+
+Descrição: Verificar se o sistema está disponível 99,97% do tempo.
+
+Passos de Execução:
+
+Monitore o tempo de disponibilidade do sistema durante um período específico.
+
+Saídas Esperadas:
+
+O sistema deve estar disponível 99,97% do tempo monitorado.
+Qualquer tempo de inatividade ou falha deve ser documentado e investigado.
+
+Critérios de Aceitação:
+
+O sistema deve ser monitorado continuamente para garantir a conformidade com o requisito de disponibilidade.
+Períodos de manutenção planejada não devem ser contabilizados como tempo de inatividade.
+
+
+
+D) Caso de Teste para Interface de Usuário Rápida:
+
+Descrição: Verificar se o sistema possui uma interface fácil de mexer e rápida para buscar informações.
+
+Passos de Execução:
+
+Realize uma busca de informações utilizando a interface do sistema.
+Avalie a velocidade de carregamento dos resultados.
+
+Saídas Esperadas:
+
+A interface deve permitir buscas rápidas e eficientes.
+Os resultados da busca devem ser carregados de forma ágil e responsiva.
+
+Critérios de Aceitação:
+
+O tempo de carregamento dos resultados de busca deve ser inferior a 5 segundos.
+A interface deve fornecer opções de filtragem para facilitar a busca de informações específicas.
+
 
 # Referências
 
